@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Liste exhaustive des chatbots IA 2025</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #001f3f;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #0074D9;
+  padding: 8px;
+}
+th {
+  background-color: #0074D9;
+  color: white;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #e6f7ff;
+}
+tr:hover {
+  background-color: #cceeff;
+}
+a {
+  color: #001f3f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  color: #001f3f;
+}
+</style>
+</head>
+<body>
+<h1>Liste exhaustive des chatbots IA (2025)</h1>
+<table>
+<thead>
+<tr>
+<th>Nom</th><th>Catégorie</th><th>Description</th><th>Lien</th>
+<th>Éditeur</th><th>Licence</th><th>API</th><th>Modèle économique</th><th>Origine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+            <td>ChatGPT</td>
+            <td>Conversationnel</td>
+            <td>Assistant polyvalent</td>
+            <td><a href="https://chat.openai.com" target="_blank">https://chat.openai.com</a></td>
+            <td>OpenAI</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Claude</td>
+            <td>Conversationnel</td>
+            <td>Éthique & sûre</td>
+            <td><a href="https://claude.ai" target="_blank">https://claude.ai</a></td>
+            <td>Anthropic</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Gemini</td>
+            <td>Conversationnel</td>
+            <td>Multimodal (texte/image/voix)</td>
+            <td><a href="https://gemini.google.com" target="_blank">https://gemini.google.com</a></td>
+            <td>Google</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Gratuit (limité)</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Le Chat</td>
+            <td>Conversationnel</td>
+            <td>Open source français</td>
+            <td><a href="https://lechat.mistral.ai" target="_blank">https://lechat.mistral.ai</a></td>
+            <td>Mistral</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>France</td>
+        </tr>
+        <tr>
+            <td>Pi</td>
+            <td>Conversationnel</td>
+            <td>Empathique</td>
+            <td><a href="https://heypi.com" target="_blank">https://heypi.com</a></td>
+            <td>Inflection AI</td>
+            <td>Propriétaire</td>
+            <td>Non</td>
+            <td>Gratuit</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Perplexity</td>
+            <td>Conversationnel</td>
+            <td>Recherche sourcée</td>
+            <td><a href="https://perplexity.ai" target="_blank">https://perplexity.ai</a></td>
+            <td>Perplexity</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Phind</td>
+            <td>Conversationnel</td>
+            <td>Dev + recherche web</td>
+            <td><a href="https://phind.com" target="_blank">https://phind.com</a></td>
+            <td>Phind</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Character.AI</td>
+            <td>Conversationnel</td>
+            <td>Personnages IA</td>
+            <td><a href="https://character.ai" target="_blank">https://character.ai</a></td>
+            <td>Character AI</td>
+            <td>Propriétaire</td>
+            <td>Non</td>
+            <td>Gratuit</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>HuggingChat</td>
+            <td>Conversationnel</td>
+            <td>Chatbot open source</td>
+            <td><a href="https://huggingface.co/chat" target="_blank">https://huggingface.co/chat</a></td>
+            <td>Hugging Face</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>USA/Europe</td>
+        </tr>
+        <tr>
+            <td>Kuki</td>
+            <td>Conversationnel</td>
+            <td>Chatbot métaverse</td>
+            <td><a href="https://www.pandorabots.com/kuki" target="_blank">https://www.pandorabots.com/kuki</a></td>
+            <td>Pandorabots</td>
+            <td>Propriétaire</td>
+            <td>Non</td>
+            <td>Gratuit</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Grok</td>
+            <td>Conversationnel</td>
+            <td>IA par xAI (Elon Musk), multimodal, intègre X (ex-Twitter)</td>
+            <td><a href="https://x.com/grok" target="_blank">https://x.com/grok</a></td>
+            <td>xAI</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Gratuit (limité)</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Bard / Gemini</td>
+            <td>Conversationnel</td>
+            <td>Chatbot multimodal de Google, accès Gemini Advanced selon plan</td>
+            <td><a href="https://gemini.google.com" target="_blank">https://gemini.google.com</a></td>
+            <td>Google</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Gratuit / Payant selon version</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>GitHub Copilot</td>
+            <td>Code</td>
+            <td>IDE assistant</td>
+            <td><a href="https://copilot.github.com" target="_blank">https://copilot.github.com</a></td>
+            <td>OpenAI+GitHub</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Payant</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Replit Ghostwriter</td>
+            <td>Code</td>
+            <td>IDE cloud</td>
+            <td><a href="https://replit.com" target="_blank">https://replit.com</a></td>
+            <td>Replit</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Codeium</td>
+            <td>Code</td>
+            <td>Extension IDE gratuite</td>
+            <td><a href="https://codeium.com" target="_blank">https://codeium.com</a></td>
+            <td>Codeium</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Cursor</td>
+            <td>Code</td>
+            <td>IA native IDE</td>
+            <td><a href="https://cursor.sh" target="_blank">https://cursor.sh</a></td>
+            <td>Cursor</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Tabnine</td>
+            <td>Code</td>
+            <td>Complétion de code</td>
+            <td><a href="https://tabnine.com" target="_blank">https://tabnine.com</a></td>
+            <td>Codota</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Rasa</td>
+            <td>Code</td>
+            <td>NLU & dialogue</td>
+            <td><a href="https://rasa.com" target="_blank">https://rasa.com</a></td>
+            <td>Rasa</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>International</td>
+        </tr>
+        <tr>
+            <td>Botpress</td>
+            <td>Code</td>
+            <td>Visuel & modulaire</td>
+            <td><a href="https://botpress.com" target="_blank">https://botpress.com</a></td>
+            <td>Botpress</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>International</td>
+        </tr>
+        <tr>
+            <td>ChatterBot</td>
+            <td>Code</td>
+            <td>Prototypage rapide</td>
+            <td><a href="https://github.com/gunthercox/ChatterBot" target="_blank">https://github.com/gunthercox/ChatterBot</a></td>
+            <td>ChatterBot</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>International</td>
+        </tr>
+        <tr>
+            <td>ChatScript</td>
+            <td>Code</td>
+            <td>Engine C++ dialog</td>
+            <td><a href="https://github.com/ChatScript/ChatScript" target="_blank">https://github.com/ChatScript/ChatScript</a></td>
+            <td>ChatScript</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>International</td>
+        </tr>
+        <tr>
+            <td>h2oGPT</td>
+            <td>Code</td>
+            <td>LLM 7–40 B</td>
+            <td><a href="https://github.com/h2oai/h2ogpt" target="_blank">https://github.com/h2oai/h2ogpt</a></td>
+            <td>h2o.ai</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>International</td>
+        </tr>
+        <tr>
+            <td>DALL·E</td>
+            <td>Photo/Vidéo</td>
+            <td>Texte→image</td>
+            <td><a href="https://chat.openai.com" target="_blank">https://chat.openai.com</a></td>
+            <td>OpenAI</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Stable Diffusion</td>
+            <td>Photo/Vidéo</td>
+            <td>Texte→image open source</td>
+            <td><a href="https://huggingface.co/spaces" target="_blank">https://huggingface.co/spaces</a></td>
+            <td>Stability AI</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>Europe</td>
+        </tr>
+        <tr>
+            <td>Midjourney</td>
+            <td>Photo/Vidéo</td>
+            <td>Création artistique Discord</td>
+            <td><a href="https://midjourney.com" target="_blank">https://midjourney.com</a></td>
+            <td>Midjourney</td>
+            <td>Propriétaire</td>
+            <td>Non</td>
+            <td>Payant</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Leonardo AI</td>
+            <td>Photo/Vidéo</td>
+            <td>Interface créative</td>
+            <td><a href="https://leonardo.ai" target="_blank">https://leonardo.ai</a></td>
+            <td>Leonardo</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Runway ML</td>
+            <td>Photo/Vidéo</td>
+            <td>Édition & génération vidéo</td>
+            <td><a href="https://runwayml.com" target="_blank">https://runwayml.com</a></td>
+            <td>Runway</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Pika Labs</td>
+            <td>Photo/Vidéo</td>
+            <td>Texte→vidéo</td>
+            <td><a href="https://pika.art" target="_blank">https://pika.art</a></td>
+            <td>Pika</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Suno AI</td>
+            <td>Musique</td>
+            <td>Génération de musique IA</td>
+            <td><a href="https://suno.ai" target="_blank">https://suno.ai</a></td>
+            <td>Suno</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>AIVA</td>
+            <td>Musique</td>
+            <td>Composition IA</td>
+            <td><a href="https://aiva.ai" target="_blank">https://aiva.ai</a></td>
+            <td>AIVA</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>Europe</td>
+        </tr>
+        <tr>
+            <td>Soundraw</td>
+            <td>Musique</td>
+            <td>Musique pour vidéo</td>
+            <td><a href="https://soundraw.io" target="_blank">https://soundraw.io</a></td>
+            <td>Soundraw</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Payant</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Boomy</td>
+            <td>Musique</td>
+            <td>Création musicale</td>
+            <td><a href="https://boomy.com" target="_blank">https://boomy.com</a></td>
+            <td>Boomy</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Personal.ai</td>
+            <td>Divers</td>
+            <td>Mémoire conversationnelle</td>
+            <td><a href="https://www.personal.ai" target="_blank">https://www.personal.ai</a></td>
+            <td>Personal AI</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Flowise</td>
+            <td>Divers</td>
+            <td>Platforme low‑code</td>
+            <td><a href="https://github.com/FlowiseAI" target="_blank">https://github.com/FlowiseAI</a></td>
+            <td>Flowise</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>International</td>
+        </tr>
+        <tr>
+            <td>EduChat</td>
+            <td>Divers</td>
+            <td>Éducation IA</td>
+            <td><a href="https://www.educhat.top" target="_blank">https://www.educhat.top</a></td>
+            <td>ICaLK‑NLP</td>
+            <td>Open Source</td>
+            <td>Oui</td>
+            <td>Gratuit</td>
+            <td>Chine</td>
+        </tr>
+        <tr>
+            <td>Aisera</td>
+            <td>Divers</td>
+            <td>Support IT/HR/Sales</td>
+            <td><a href="https://aisera.com" target="_blank">https://aisera.com</a></td>
+            <td>Aisera</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Payant</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Netomi</td>
+            <td>Divers</td>
+            <td>Service client NLU</td>
+            <td><a href="https://netomi.com" target="_blank">https://netomi.com</a></td>
+            <td>Netomi</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Payant</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Botsonic</td>
+            <td>Divers</td>
+            <td>Builder chatbots GPT-4</td>
+            <td><a href="https://botsonic.ai" target="_blank">https://botsonic.ai</a></td>
+            <td>Writesonic</td>
+            <td>Propriétaire</td>
+            <td>Oui</td>
+            <td>Payant</td>
+            <td>USA</td>
+        </tr>
+</tbody>
+</table>
+</body>
+</html>
