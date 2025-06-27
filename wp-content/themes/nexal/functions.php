@@ -84,3 +84,22 @@ if ( ! function_exists( 'nexal_default_color_mode' ) ) {
 
 }
 add_filter( 'plover_theme_default_color_mode', 'nexal_default_color_mode' );
+
+// Incrémente les vues de la page d'accueil
+function kuzlab_count_homepage_views() {
+    if ((is_front_page() || is_home()) && !is_admin()) {
+        $user_agent = $_SERVER['HTTP_USER_AGENT'];
+        if (preg_match('/bot|crawl|slurp|spider/i', $user_agent)) return;
+
+        $views = get_option('kuzlab_homepage_views', 0);
+        update_option('kuzlab_homepage_views', ++$views);
+    }
+}
+add_action('wp_head', 'kuzlab_count_homepage_views');
+
+// Affichage via shortcode
+function kuzlab_homepage_view_shortcode() {
+    $views = get_option('kuzlab_homepage_views', 0);
+    return '<div class="kuzlab-home-views">👁️ ' . number_format_i18n($views) . ' ROBOTS LOOKED IN THE KUZLAB NETWORK</div>';
+}
+add_shortcode('count_views', 'kuzlab_homepage_view_shortcode');
