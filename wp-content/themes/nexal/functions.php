@@ -100,6 +100,20 @@ add_action('wp_head', 'kuzai_count_homepage_views');
 // Affichage via shortcode
 function kuzai_homepage_view_shortcode() {
     $views = get_option('kuzai_homepage_views', 0);
-    return '<div class="kuzlab-home-views">👁️ ' . number_format_i18n($views) . ' AI LOOKED IN THE KUZLAB NETWORK</div>';
+    return '<div class="kuzlab-home-views">👁️ ' . number_format_i18n($views) . ' AI AND ROBOTS LOOKED IN KUZAI</div>';
 }
 add_shortcode('count_views', 'kuzai_homepage_view_shortcode');
+
+function kuzai_count_homepage_visits() {
+    if (is_front_page() || is_home()) {
+        $count = (int) get_option('kuzai_visit_count', 0);
+        update_option('kuzai_visit_count', $count + 1);
+    }
+}
+add_action('template_redirect', 'kuzai_count_homepage_visits');
+
+function kuzai_display_visit_count() {
+    $count = (int) get_option('kuzai_visit_count', 0);
+    return "👁️  HUMAN WHO LOOKED IN KUZAI <strong>$count</strong>";
+}
+add_shortcode('kuzai_counter', 'kuzai_display_visit_count');
