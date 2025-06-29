@@ -1,0 +1,133 @@
+
+
+<!-- Formulaire de recherche -->
+<div style="margin-bottom: 20px;">
+  <label for="searchName">FIND BY NAME</label>
+  <input type="text" id="searchName" placeholder="Ex: Claude, ChatGPT, Boomy" />
+
+  <label for="searchCategory" style="margin-left: 20px;">CATEGORIES FILTER :</label>
+  <select id="searchCategory">
+    <option value="">-- ALL CATGORIES --</option>
+    <option>Conversationnel</option>
+    <option>Code</option>
+    <option>Photo/Vidéo</option>
+    <option>Musique</option>
+    <option>Éducation/Enseignement</option>
+    <option>Marketing/Réseaux sociaux</option>
+    <option>Automatisation/Agents d’entreprise</option>
+    <option>Divers</option>
+  </select>
+
+  <button onclick="filterTable()">FIND</button>
+  <button onclick="location.reload();">RELOAD THE INDEX</button>
+</div>
+
+<script>
+window.addEventListener('load', () => {
+  const tableElement = document.getElementById('chatbotTable');
+  if (tableElement) {
+    tableElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+</script>
+
+<script>
+function filterTable() {
+  const nameFilter = document.getElementById("searchName").value.trim().toUpperCase();
+  const categoryFilter = document.getElementById("searchCategory").value;
+
+  const rows = document.querySelectorAll("table tbody tr");
+
+  let matchCount = 0;
+
+  rows.forEach(row => {
+    const nameCell = row.cells[0]; // colonne "Nom"
+    const categoryCell = row.cells[1]; // colonne "Catégorie"
+
+    const nameMatch = !nameFilter || nameCell.textContent.toUpperCase().includes(nameFilter);
+    const categoryMatch = !categoryFilter || categoryCell.textContent === categoryFilter;
+
+    if (nameMatch && categoryMatch) {
+      row.style.display = ""; // afficher
+      row.style.backgroundColor = "#ffd580"; // surlignage orange clair
+      matchCount++;
+    } else {
+      row.style.display = "none";
+    }
+  });
+
+  if (matchCount === 0) {
+    alert("Aucun résultat trouvé.");
+  }
+}
+</script>
+
+_______________________________________________________________________________________________
+
+<!-- Formulaire de recherche IA -->
+<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+
+  <div style="display: flex; flex-direction: column;">
+    <label for="searchName" style="color: #000; font-weight: bold;">FIND BY NAME</label>
+    <input type="text" id="searchName" placeholder="Ex: Claude, ChatGPT, Boomy" style="padding: 5px; width: 200px;">
+  </div>
+
+  <div style="display: flex; flex-direction: column;">
+    <label for="searchCategory" style="color: #000; font-weight: bold;">CATEGORIES FILTER</label>
+    <select id="searchCategory" style="padding: 5px; width: 200px;">
+      <option value="">-- ALL CATEGORIES --</option>
+      <option>Conversationnel</option>
+      <option>Code</option>
+      <option>Photo/Vidéo</option>
+      <option>Musique</option>
+      <option>Éducation/Enseignement</option>
+      <option>Marketing/Réseaux sociaux</option>
+      <option>Automatisation/Agents d’entreprise</option>
+      <option>Divers</option>
+    </select>
+  </div>
+
+  <div style="display: flex; gap: 10px; margin-top: 22px;">
+    <button onclick="filterTable()" style="color: #001f3f; font-weight: bold;">FIND</button>
+    <button onclick="location.reload();" style="color: #001f3f; font-weight: bold;">RELOAD THE INDEX</button>
+  </div>
+</div>
+
+<script>
+window.addEventListener('load', () => {
+  const tableElement = document.getElementById('chatbotTable');
+  if (tableElement) {
+    tableElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+
+function filterTable() {
+  const nameFilter = document.getElementById("searchName").value.trim().toUpperCase();
+  const categoryFilter = document.getElementById("searchCategory").value;
+
+  const rows = document.querySelectorAll("table tbody tr");
+
+  let matchCount = 0;
+
+  rows.forEach(row => {
+    const nameCell = row.cells[0]; // colonne "Nom"
+    const categoryCell = row.cells[1]; // colonne "Catégorie"
+
+    const nameMatch = !nameFilter || nameCell.textContent.toUpperCase().includes(nameFilter);
+    const categoryMatch = !categoryFilter || categoryCell.textContent === categoryFilter;
+
+    if (nameMatch && categoryMatch) {
+      row.style.display = "";
+      row.style.backgroundColor = "#ffaa00"; // orange foncé
+      matchCount++;
+    } else {
+      row.style.display = "none";
+    }
+  });
+
+  if (matchCount === 0) {
+    alert("Aucun résultat trouvé.");
+  }
+}
+</script>
+
