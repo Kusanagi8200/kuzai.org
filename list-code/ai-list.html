@@ -1,1 +1,3066 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
 
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #001f3f;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #0074D9;
+  padding: 8px;
+}
+th {
+  background-color: #0074D9;
+  color: white;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #e6f7ff;
+}
+tr:hover {
+  background-color: #cceeff;
+}
+a {
+  color: #001f3f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  color: #001f3f;
+}
+</style>
+</head>
+<body>
+
+<table>
+<thead>
+<tr>
+<th>Nom</th><th>Catégorie</th><th>Description</th><th>Lien</th>
+<th>Éditeur</th><th>Licence</th><th>API</th><th>Modèle économique</th><th>Origine</th>
+</tr>
+</thead>
+<tbody>
+
+     <tr>
+        <td>Dream by WOMBO</td>
+        <td>Image Generation</td>
+        <td>Creates artwork from text prompts with various style presets, also supports deepfake generation using 5-10 images.</td>
+        <td><a href="https://dream.ai">dream.ai</a></td>
+        <td>WOMBO Studios, Inc.</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium (free basic version, premium tier for ad-free experience and faster processing)</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td>Google Bard</td>
+        <td>Conversational AI</td>
+        <td>A conversational AI chatbot that processes natural language to provide answers and assist with tasks.</td>
+        <td><a href="https://bard.google.com">bard.google.com</a></td>
+        <td>Google</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Yaara</td>
+        <td>Content Creation</td>
+        <td>An AI-powered tool for generating written content, such as articles, blogs, and marketing copy.</td>
+        <td><a href="https://yaara.ai">yaara.ai</a></td>
+        <td>Yaara AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Notion AI</td>
+        <td>Productivity AI</td>
+        <td>Enhances Notion workspace with AI-powered writing, editing, and task automation features.</td>
+        <td><a href="https://www.notion.so/product/ai">notion.so</a></td>
+        <td>Notion Labs, Inc.</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based (integrated with Notion plans)</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Paraphraser AI</td>
+        <td>Text Processing</td>
+        <td>An AI tool for paraphrasing text to improve clarity, style, or avoid plagiarism.</td>
+        <td><a href="https://paraphraser.ai">paraphraser.ai</a></td>
+        <td>Unknown</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>DALL·E</td>
+        <td>Image Generation</td>
+        <td>Generates images from text prompts</td>
+        <td><a href="https://openai.com/dall-e-3">openai.com</a></td>
+        <td>OpenAI</td>
+        <td>Proprietary</td>
+        <td>Available via OpenAI API</td>
+        <td>Subscription-based (via ChatGPT Plus or API usage)</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Stable Diffusion</td>
+        <td>Image Generation</td>
+        <td>Open-source AI model for generating high-quality images</td>
+        <td><a href="https://stability.ai">stability.ai</a></td>
+        <td>Stability AI</td>
+        <td>Open Source (MIT License)</td>
+        <td>Available via Stability AI API</td>
+        <td>Freemium (free open-source model, paid API and cloud services)</td>
+        <td>United Kingdom</td>
+    </tr>
+    <tr>
+        <td>GPT-3 (OpenAI Playground)</td>
+        <td>Text Generation</td>
+        <td>Language model for generating human-like text</td>
+        <td><a href="https://platform.openai.com/playground">platform.openai.com</a></td>
+        <td>OpenAI</td>
+        <td>Proprietary</td>
+        <td>Available via OpenAI API</td>
+        <td>Pay-per-use (API-based)</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Hugging Face</td>
+        <td>AI Platform</td>
+        <td>A platform hosting open-source AI models, datasets, and tools, primarily for NLP and image generation.</td>
+        <td><a href="https://huggingface.co">huggingface.co</a></td>
+        <td>Hugging Face, Inc.</td>
+        <td>Open Source (Apache 2.0 for most models)</td>
+        <td>Available via Hugging Face API</td>
+        <td>Freemium (free open-source models, paid enterprise solutions)</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Bing AI</td>
+        <td>Conversational AI / Image Generation</td>
+        <td>Integrates AI chat and image generation (via DALL·E 3) into Bing search, offering conversational and visual capabilities.</td>
+        <td><a href="https://www.bing.com">bing.com</a></td>
+        <td>Microsoft</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Let's Enhance</td>
+        <td>Image Enhancement</td>
+        <td>AI-powered tool for upscaling and enhancing image quality, improving resolution and details.</td>
+        <td><a href="https://letsenhance.io">letsenhance.io</a></td>
+        <td>Let's Enhance</td>
+        <td>Proprietary</td>
+        <td>Available via API</td>
+        <td>Freemium (free limited use, paid plans for advanced features)</td>
+        <td>Ukraine</td>
+    </tr>
+    <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>Description</th>
+        <th>Lien</th>
+        <th>Éditeur</th>
+        <th>Licence</th>
+        <th>API</th>
+        <th>Modèle économique</th>
+        <th>Origine</th>
+    </tr>
+    <tr>
+        <td>Spotify AI DJ</td>
+        <td>Music Personalization</td>
+        <td>Curates personalized music playlists with AI-driven commentary, mimicking a radio DJ experience.</td>
+        <td><a href="https://www.spotify.com">spotify.com</a></td>
+        <td>Spotify</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based (Spotify Premium)</td>
+        <td>Sweden</td>
+    </tr>
+    <tr>
+        <td>Gladia</td>
+        <td>Speech-to-Text</td>
+        <td>Provides real-time audio transcription and analysis with multilingual support for various applications.</td>
+        <td><a href="https://www.gladia.io">gladia.io</a></td>
+        <td>Gladia</td>
+        <td>Proprietary</td>
+        <td>Available via Gladia API</td>
+        <td>Pay-per-use (API-based)</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>Type.AI</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered tool for generating and editing text, focusing on real-time writing assistance.</td>
+        <td><a href="https://type.ai">type.ai</a></td>
+        <td>Type AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Poe</td>
+        <td>Conversational AI</td>
+        <td>A platform allowing users to interact with multiple AI models for text generation and Q&A.</td>
+        <td><a href="https://poe.com">poe.com</a></td>
+        <td>Quora</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Synthesia</td>
+        <td>Video Generation</td>
+        <td>Creates AI-generated videos with virtual avatars from text inputs for training, marketing, and more.</td>
+        <td><a href="https://www.synthesia.io">synthesia.io</a></td>
+        <td>Synthesia</td>
+        <td>Proprietary</td>
+        <td>Available via Synthesia API</td>
+        <td>Subscription-based</td>
+        <td>United Kingdom</td>
+    </tr>
+    <tr>
+        <td>HeyFriday</td>
+        <td>Content Creation</td>
+        <td>AI-powered writing assistant for generating blog posts, articles, and marketing content.</td>
+        <td><a href="https://heyfriday.ai">heyfriday.ai</a></td>
+        <td>HeyFriday</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>TLDR This</td>
+        <td>Text Summarization</td>
+        <td>Summarizes long articles or texts into concise summaries, preserving key points.</td>
+        <td><a href="https://tldrthis.com">tldrthis.com</a></td>
+        <td>TLDR This</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Wordkraft</td>
+        <td>Content Creation</td>
+        <td>Generates SEO-optimized content for blogs, websites, and marketing using GPT-3 technology.</td>
+        <td><a href="https://wordkraft.ai">wordkraft.ai</a></td>
+        <td>Wordkraft AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>SlidesGPT</td>
+        <td>Presentation Generation</td>
+        <td>Creates PowerPoint presentations from text prompts using AI automation.</td>
+        <td><a href="https://slidesgpt.com">slidesgpt.com</a></td>
+        <td>SlidesGPT</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Pay-per-use</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Waymo</td>
+        <td>Autonomous Driving</td>
+        <td>Develops AI-driven autonomous driving technology for self-driving cars and delivery services.</td>
+        <td><a href="https://waymo.com">waymo.com</a></td>
+        <td>Waymo (Alphabet Inc.)</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Commercial service</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Power Thesaurus</td>
+        <td>Writing Assistant</td>
+        <td>Provides synonyms, antonyms, and related words to enhance writing, with some AI-driven features.</td>
+        <td><a href="https://www.powerthesaurus.org">powerthesaurus.org</a></td>
+        <td>Power Thesaurus</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Grammarly</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered tool for grammar checking, style improvement, and tone adjustment in writing.</td>
+        <td><a href="https://www.grammarly.com">grammarly.com</a></td>
+        <td>Grammarly, Inc.</td>
+        <td>Proprietary</td>
+        <td>Available via Grammarly API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Hemingway AI</td>
+        <td>Writing Assistant</td>
+        <td>Enhances writing clarity and conciseness, inspired by Hemingway’s style, with AI suggestions.</td>
+        <td><a href="https://hemingwayapp.com">hemingwayapp.com</a></td>
+        <td>Hemingway Ltd.</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>DuckAssist</td>
+        <td>Search Assistant</td>
+        <td>AI-powered search feature by DuckDuckGo, providing instant answers from web sources.</td>
+        <td><a href="https://duckduckgo.com">duckduckgo.com</a></td>
+        <td>DuckDuckGo</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Galileo</td>
+        <td>UI Design</td>
+        <td>Generates editable UI designs from text descriptions for rapid prototyping.</td>
+        <td><a href="https://www.usegalileo.ai">usegalileo.ai</a></td>
+        <td>Galileo AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Jam</td>
+        <td>Productivity AI</td>
+        <td>AI-powered tool for generating meeting notes, action items, and summaries from conversations.</td>
+        <td><a href="https://www.jam.dev">jam.dev</a></td>
+        <td>Jam</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>NovelAI</td>
+        <td>AI Storytelling</td>
+        <td>AI-driven platform for creating stories, emulating writing styles, and managing lore.</td>
+        <td><a href="https://novelai.net">novelai.net</a></td>
+        <td>Anlatan</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>PhotoRoom</td>
+        <td>Image Editing</td>
+        <td>AI-powered tool for removing backgrounds and creating product photos from mobile devices.</td>
+        <td><a href="https://www.photoroom.com">photoroom.com</a></td>
+        <td>PhotoRoom</td>
+        <td>Proprietary</td>
+        <td>Available via PhotoRoom API</td>
+        <td>Freemium</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>Wonder AI</td>
+        <td>Image Generation</td>
+        <td>Generates digital art and images from text prompts, focusing on creative outputs.</td>
+        <td><a href="https://wonder-ai.com">wonder-ai.com</a></td>
+        <td>Wonder AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Brave Summarizer</td>
+        <td>Text Summarization</td>
+        <td>AI-powered feature in Brave browser that summarizes web pages and search results.</td>
+        <td><a href="https://brave.com">brave.com</a></td>
+        <td>Brave Software</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>ChatPDF</td>
+        <td>Document Interaction</td>
+        <td>Allows users to upload PDFs and interact with them through summarization and Q&A.</td>
+        <td><a href="https://www.chatpdf.com">chatpdf.com</a></td>
+        <td>ChatPDF</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>DeepDream</td>
+        <td>Image Generation</td>
+        <td>Uses neural networks to create dream-like, artistic image transformations.</td>
+        <td><a href="https://deepdreamgenerator.com">deepdreamgenerator.com</a></td>
+        <td>DeepDream</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>Description</th>
+        <th>Lien</th>
+        <th>Éditeur</th>
+        <th>Licence</th>
+        <th>API</th>
+        <th>Modèle économique</th>
+        <th>Origine</th>
+    </tr>
+    <tr>
+        <td>Disco Diffusion</td>
+        <td>Image Generation</td>
+        <td>Open-source AI for generating artistic images from text prompts using diffusion models.</td>
+        <td><a href="https://github.com/alembics/disco-diffusion">github.com</a></td>
+        <td>Community-driven</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>GPTFlix</td>
+        <td>Content Recommendation</td>
+        <td>AI-powered tool for generating personalized movie and TV show recommendations.</td>
+        <td><a href="https://gptflix.ai">gptflix.ai</a></td>
+        <td>GPTFlix</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>iA Writer</td>
+        <td>Writing Assistant</td>
+        <td>Minimalist writing app with AI features for focused writing and style suggestions.</td>
+        <td><a href="https://ia.net/writer">ia.net</a></td>
+        <td>Information Architects</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Paid (one-time purchase)</td>
+        <td>Switzerland</td>
+    </tr>
+    <tr>
+        <td>LangChain AI</td>
+        <td>AI Framework</td>
+        <td>Framework for building applications powered by language models, enabling context-aware reasoning.</td>[](https://gist.github.com/0xdevalias/09a5c27702cb94f81c9fb4b7434df966)
+        <td><a href="https://langchain.com">langchain.com</a></td>
+        <td>LangChain</td>
+        <td>Open Source (MIT License)</td>
+        <td>Available via LangChain API</td>
+        <td>Freemium (open-source with paid services)</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Numerous.ai</td>
+        <td>Productivity AI</td>
+        <td>AI-powered spreadsheet assistant for data analysis, formatting, and automation in Google Sheets.</td>
+        <td><a href="https://numerous.ai">numerous.ai</a></td>
+        <td>Numerous.ai</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Photoleap</td>
+        <td>Image Editing</td>
+        <td>All-in-one photo editor with AI tools for background changes, object removal, and artistic transformations.</td>[](https://blogs.uoregon.edu/artificialintelligence/ai-software/)
+        <td><a href="https://www.photoleapapp.com">photoleapapp.com</a></td>
+        <td>Lightricks</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Israel</td>
+    </tr>
+    <tr>
+        <td>Tabnine</td>
+        <td>Code Assistant</td>
+        <td>AI-powered coding assistant for autocompletion and code suggestions in various IDEs.</td>[](https://blogs.uoregon.edu/artificialintelligence/ai-software/)
+        <td><a href="https://www.tabnine.com">tabnine.com</a></td>
+        <td>Tabnine</td>
+        <td>Proprietary</td>
+        <td>Available via Tabnine API</td>
+        <td>Freemium</td>
+        <td>Israel</td>
+    </tr>
+    <tr>
+        <td>Bicasso</td>
+        <td>Image Generation</td>
+        <td>AI tool for creating artistic images and NFTs from text prompts.</td>
+        <td><a href="https://bicasso.io">bicasso.io</a></td>
+        <td>Bicasso</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Dawn AI</td>
+        <td>Image Generation</td>
+        <td>Generates avatars and artistic images from text prompts or user-uploaded photos.</td>
+        <td><a href="https://dawn.ai">dawn.ai</a></td>
+        <td>Dawn AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Ask My Book</td>
+        <td>Conversational AI</td>
+        <td>AI tool for interacting with books by answering questions based on their content.</td>
+        <td><a href="https://askmybook.com">askmybook.com</a></td>
+        <td>Ask My Book</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>BestRegards</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered email and message drafting tool for professional communication.</td>
+        <td><a href="https://bestregards.app">bestregards.app</a></td>
+        <td>BestRegards</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>BlogAssistant</td>
+        <td>Content Creation</td>
+        <td>AI tool for generating blog posts, optimizing SEO, and streamlining content creation.</td>
+        <td><a href="https://blogassistant.ai">blogassistant.ai</a></td>
+        <td>BlogAssistant</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>CodeSquire</td>
+        <td>Code Assistant</td>
+        <td>AI-powered coding assistant for data scientists, generating code and explanations.</td>
+        <td><a href="https://codesquire.ai">codesquire.ai</a></td>
+        <td>CodeSquire</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>cogram</td>
+        <td>Productivity AI</td>
+        <td>AI tool for meeting transcription, summarization, and action item tracking.</td>
+        <td><a href="https://cogram.ai">cogram.ai</a></td>
+        <td>Cogram</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Ellie</td>
+        <td>Writing Assistant</td>
+        <td>AI email assistant that learns user tone for drafting personalized responses.</td>
+        <td><a href="https://tryellie.com">tryellie.com</a></td>
+        <td>Ellie</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>FineShare</td>
+        <td>Video Editing</td>
+        <td>AI-powered video production tool for simplifying video creation and customization.</td>[](https://bestfreeaiwebsites.com/all-tools/)
+        <td><a href="https://www.fineshare.com">fineshare.com</a></td>
+        <td>FineShare</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>heyCLI</td>
+        <td>Command Line AI</td>
+        <td>AI-powered command-line interface for natural language-based code execution.</td>
+        <td><a href="https://heycli.com">heycli.com</a></td>
+        <td>heyCLI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Huberman AI</td>
+        <td>Conversational AI</td>
+        <td>AI tool for accessing insights from Dr. Andrew Huberman’s content via Q&A.</td>[](https://github.com/re50urces/Awesome-AI)
+        <td><a href="https://huberman.ai">huberman.ai</a></td>
+        <td>Huberman AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Imagen</td>
+        <td>Image Generation</td>
+        <td>Google’s AI for generating high-quality images from text prompts.</td>
+        <td><a href="https://cloud.google.com/vision">cloud.google.com</a></td>
+        <td>Google</td>
+        <td>Proprietary</td>
+        <td>Available via Google Cloud API</td>
+        <td>Pay-per-use</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Magical AI</td>
+        <td>Productivity AI</td>
+        <td>Automates repetitive tasks like email drafting and data entry with AI.</td>
+        <td><a href="https://www.getmagical.com">getmagical.com</a></td>
+        <td>Magical AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>MemeMorph</td>
+        <td>Image Generation</td>
+        <td>AI tool for creating personalized memes from user-uploaded images.</td>
+        <td><a href="https://mememorph.com">mememorph.com</a></td>
+        <td>MemeMorph</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Monica</td>
+        <td>Conversational AI</td>
+        <td>AI assistant for writing, summarizing, and answering questions across platforms.</td>
+        <td><a href="https://monica.im">monica.im</a></td>
+        <td>Monica</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>outline</td>
+        <td>Content Creation</td>
+        <td>AI-powered tool for generating outlines and content for articles and blogs.</td>
+        <td><a href="https://outline.ai">outline.ai</a></td>
+        <td>Outline AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Peech</td>
+        <td>Video Editing</td>
+        <td>AI-powered video creation tool for generating branded content and captions.</td>
+        <td><a href="https://peech.ai">peech.ai</a></td>
+        <td>Peech</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Israel</td>
+    </tr>
+    <tr>
+        <td>Powerpresent AI</td>
+        <td>Presentation Generation</td>
+        <td>AI tool for creating professional presentations from text prompts.</td>
+        <td><a href="https://powerpresent.ai">powerpresent.ai</a></td>
+        <td>Powerpresent AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>RemoveBG.dev</td>
+        <td>Image Editing</td>
+        <td>AI tool for automatically removing backgrounds from images.</td>
+        <td><a href="https://removebg.dev">removebg.dev</a></td>
+        <td>RemoveBG</td>
+        <td>Proprietary</td>
+        <td>Available via API</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Resume Worded</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered tool for optimizing resumes and LinkedIn profiles for job applications.</td>
+        <td><a href="https://resumeworded.com">resumeworded.com</a></td>
+        <td>Resume Worded</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>roomGPT</td>
+        <td>Interior Design</td>
+        <td>AI tool for generating interior design ideas from room photos.</td>
+        <td><a href="https://roomgpt.io">roomgpt.io</a></td>
+        <td>roomGPT</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Slides AI</td>
+        <td>Presentation Generation</td>
+        <td>AI-powered tool for creating presentations in Google Slides.</td>[](https://github.com/sindresorhus/awesome-chatgpt)
+        <td><a href="https://www.slidesai.io">slidesai.io</a></td>
+        <td>Slides AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>StockIMG</td>
+        <td>Image Generation</td>
+        <td>AI tool for generating stock images and graphics from text prompts.</td>
+        <td><a href="https://stockimg.ai">stockimg.ai</a></td>
+        <td>StockIMG</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Teddy AI</td>
+        <td>Educational AI</td>
+        <td>AI-powered educational tool for children, offering personalized learning experiences.</td>
+        <td><a href="https://teddyai.com">teddyai.com</a></td>
+        <td>Teddy AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United Kingdom</td>
+    </tr>
+    <tr>
+        <td>text.cortex</td>
+        <td>Writing Assistant</td>
+        <td>AI tool for generating and refining text for emails, marketing, and content creation.</td>
+        <td><a href="https://textcortex.com">textcortex.com</a></td>
+        <td>TextCortex</td>
+        <td>Proprietary</td>
+        <td>Available via TextCortex API</td>
+        <td>Freemium</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>uizard</td>
+        <td>UI Design</td>
+        <td>Ccreating UI designs and prototypes from text descriptions.</td>[](https://blogs.uoregon.edu/artificialintelligence/ai-software/)
+        <td><a href="https://uizard.io">uizard.io</a></td>
+        <td>Uizard</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Denmark</td>
+    </tr>
+    <tr>
+        <td>VoiceLine</td>
+        <td>Voice Assistant</td>
+        <td>AI-powered voice note tool for capturing and transcribing ideas and tasks.</td>
+        <td><a href="https://voiceline.ai">voiceline.ai</a></td>
+        <td>VoiceLine</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Germany</td>
+    </tr>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>Description</th>
+        <th>Lien</th>
+        <th>Éditeur</th>
+        <th>Licence</th>
+        <th>API</th>
+        <th>Modèle économique</th>
+        <th>Origine</th>
+    </tr>
+    <tr>
+        <td>Wiseone</td>
+        <td>Browser Extension</td>
+        <td>AI-powered browser extension to enhance online reading, simplify information, and provide factual insights.</td>
+        <td><a href="https://wiseone.io">wiseone.io</a></td>
+        <td>Wiseone</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Wordtune</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered tool for rewriting and rephrasing text to improve clarity and style.</td>
+        <td><a href="https://www.wordtune.com">wordtune.com</a></td>
+        <td>AI21 Labs</td>
+        <td>Proprietary</td>
+        <td>Available via Wordtune API</td>
+        <td>Freemium</td>
+        <td>Israel</td>
+    </tr>
+    <tr>
+        <td>Zeeno</td>
+        <td>Mobile Assistant</td>
+        <td>AI-powered mobile keyboard assistant for generating text and ideas on the go.</td>
+        <td><a href="https://zeeno.ai">zeeno.ai</a></td>
+        <td>Zeeno</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Excalidraw</td>
+        <td>Diagramming</td>
+        <td>Collaborative whiteboard tool for creating diagrams, with AI-enhanced features for automation.</td>
+        <td><a href="https://excalidraw.com">excalidraw.com</a></td>
+        <td>Excalidraw</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free (with paid cloud features)</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>ChatShape</td>
+        <td>Conversational AI</td>
+        <td>AI tool for creating custom chatbots from documents or websites.</td>
+        <td><a href="https://chatshape.com">chatshape.com</a></td>
+        <td>ChatShape</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Adobe Firefly</td>
+        <td>Image Generation</td>
+        <td>AI-powered tool for generating and editing images and artwork from text prompts.</td>
+        <td><a href="https://www.adobe.com/firefly">adobe.com</a></td>
+        <td>Adobe</td>
+        <td>Proprietary</td>
+        <td>Available via Adobe API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>AI Image Enlarger</td>
+        <td>Image Enhancement</td>
+        <td>AI tool for upscaling and enhancing image resolution without quality loss.</td>
+        <td><a href="https://imglarger.com">imglarger.com</a></td>
+        <td>AI Image Enlarger</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>AI Picasso</td>
+        <td>Image Generation</td>
+        <td>Creates artwork from text prompts using Stable Diffusion technology.</td>
+        <td><a href="https://aipicasso.app">aipicasso.app</a></td>
+        <td>AI Picasso</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>AISEO</td>
+        <td>Content Creation</td>
+        <td>AI-powered tool for generating SEO-optimized content and paraphrasing text.</td>
+        <td><a href="https://aiseo.ai">aiseo.ai</a></td>
+        <td>AISEO</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Alan AI</td>
+        <td>Voice Assistant</td>
+        <td>AI-powered voice interface for building conversational apps and workflows.</td>
+        <td><a href="https://alan.app">alan.app</a></td>
+        <td>Alan AI</td>
+        <td>Proprietary</td>
+        <td>Available via Alan AI API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Bardeen</td>
+        <td>Automation AI</td>
+        <td>AI tool for automating manual workflows and repetitive tasks across apps.</td>
+        <td><a href="https://www.bardeen.ai">bardeen.ai</a></td>
+        <td>Bardeen</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Beautiful AI</td>
+        <td>Presentation Generation</td>
+        <td>AI-powered tool for creating professional presentations with automated design.</td>
+        <td><a href="https://www.beautiful.ai">beautiful.ai</a></td>
+        <td>Beautiful.ai</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Boomy</td>
+        <td>Music Generation</td>
+        <td>AI-powered platform for creating original music tracks from user inputs.</td>
+        <td><a href="https://boomy.com">boomy.com</a></td>
+        <td>Boomy Corporation</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Browse AI</td>
+        <td>Web Scraping</td>
+        <td>AI tool for extracting and monitoring data from websites without coding.</td>
+        <td><a href="https://www.browse.ai">browse.ai</a></td>
+        <td>Browse AI</td>
+        <td>Proprietary</td>
+        <td>Available via Browse AI API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Chat Thing</td>
+        <td>Conversational AI</td>
+        <td>AI-powered chatbot creation tool for businesses and customer support.</td>
+        <td><a href="https://chatthing.ai">chatthing.ai</a></td>
+        <td>Chat Thing</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>ChatBase</td>
+        <td>Conversational AI</td>
+        <td>AI tool for building custom chatbots trained on user-provided data.</td>
+        <td><a href="https://www.chatbase.co">chatbase.co</a></td>
+        <td>ChatBase</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>CMDJ</td>
+        <td>Productivity AI</td>
+        <td>Chrome extension integrating ChatGPT for task automation and productivity.</td>
+        <td><a href="https://cmdj.app">cmdj.app</a></td>
+        <td>CMDJ</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>ControlNet</td>
+        <td>Image Generation</td>
+        <td>AI framework for precise control over image generation with diffusion models.</td>
+        <td><a href="https://github.com/lllyasviel/ControlNet">github.com</a></td>
+        <td>Community-driven</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Craiyon</td>
+        <td>Image Generation</td>
+        <td>Free AI image generator creating illustrations from text prompts, based on FLUX.1.</td>
+        <td><a href="https://www.craiyon.com">craiyon.com</a></td>
+        <td>Craiyon</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>D-ID</td>
+        <td>Video Generation</td>
+        <td>AI tool for creating animated videos and avatars from text or images.</td>
+        <td><a href="https://www.d-id.com">d-id.com</a></td>
+        <td>D-ID</td>
+        <td>Proprietary</td>
+        <td>Available via D-ID API</td>
+        <td>Freemium</td>
+        <td>Israel</td>
+    </tr>
+    <tr>
+        <td>DELV</td>
+        <td>Conversational AI</td>
+        <td>AI platform for building conversational agents for customer support and engagement.</td>
+        <td><a href="https://delv.ai">delv.ai</a></td>
+        <td>DELV AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Descript</td>
+        <td>Audio/Video Editing</td>
+        <td>AI-powered tool for editing audio and video through text-based transcription.</td>
+        <td><a href="https://www.descript.com">descript.com</a></td>
+        <td>Descript</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Diagram Automator</td>
+        <td>Diagramming</td>
+        <td>AI tool for automating diagram creation for workflows and processes.</td>
+        <td><a href="https://diagram.com">diagram.com</a></td>
+        <td>Diagram</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Diagram Genius</td>
+        <td>Diagramming</td>
+        <td>AI-powered tool for generating professional diagrams from text descriptions.</td>
+        <td><a href="https://diagram.com">diagram.com</a></td>
+        <td>Diagram</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Diagram Magician</td>
+        <td>Diagramming</td>
+        <td>AI tool for creating visually appealing diagrams with minimal user input.</td>
+        <td><a href="https://diagram.com">diagram.com</a></td>
+        <td>Diagram</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Diagram Prototyper</td>
+        <td>Diagramming</td>
+        <td>AI-powered tool for prototyping diagrams and UI designs from text prompts.</td>
+        <td><a href="https://diagram.com">diagram.com</a></td>
+        <td>Diagram</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Diagram</td>
+        <td>Diagramming</td>
+        <td>AI-powered platform for creating and collaborating on diagrams and workflows.</td>
+        <td><a href="https://diagram.com">diagram.com</a></td>
+        <td>Diagram</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Durable</td>
+        <td>Business Automation</td>
+        <td>AI-powered tool for building websites and automating business tasks.</td>
+        <td><a href="https://durable.co">durable.co</a></td>
+        <td>Durable</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td>Formula Generator</td>
+        <td>Productivity AI</td>
+        <td>AI tool for generating Excel and Google Sheets formulas from text prompts.</td>
+        <td><a href="https://formulagenerator.app">formulagenerator.app</a></td>
+        <td>Formula Generator</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Frase</td>
+        <td>Content Creation</td>
+        <td>AI-powered tool for creating SEO-optimized content and research.</td>
+        <td><a href="https://www.frase.io">frase.io</a></td>
+        <td>Frase</td>
+        <td>Proprietary</td>
+        <td>Available via Frase API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Genmo</td>
+        <td>Video Generation</td>
+        <td>AI tool for creating videos and animations from text prompts.</td>
+        <td><a href="https://www.genmo.ai">genmo.ai</a></td>
+        <td>Genmo</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Google Talk to Books</td>
+        <td>Conversational AI</td>
+        <td>AI tool for querying books using natural language to find relevant passages.</td>
+        <td><a href="https://books.google.com/talktobooks">books.google.com</a></td>
+        <td>Google</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Gradio</td>
+        <td>AI Framework</td>
+        <td>Open-source framework for building interactive AI model interfaces.</td>
+        <td><a href="https://gradio.app">gradio.app</a></td>
+        <td>Gradio</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via Gradio API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Hints</td>
+        <td>Productivity AI</td>
+        <td>AI-powered assistant for capturing notes and automating tasks via voice or text.</td>
+        <td><a href="https://hints.so">hints.so</a></td>
+        <td>Hints</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Hypotenuse</td>
+        <td>Content Creation</td>
+        <td>AI-powered platform for generating marketing content, blogs, and product descriptions.</td>
+        <td><a href="https://www.hypotenuse.ai">hypotenuse.ai</a></td>
+        <td>Hypotenuse AI</td>
+        <td>Proprietary</td>
+        <td>Available via Hypotenuse API</td>
+        <td>Subscription-based</td>
+        <td>Singapore</td>
+    </tr>
+    <tr>
+        <td>iA Net Presenter</td>
+        <td>Presentation Generation</td>
+        <td>AI-powered tool for creating presentations with integrated writing and design features.</td>
+        <td><a href="https://ia.net/presenter">ia.net</a></td>
+        <td>Information Architects</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Switzerland</td>
+    </tr>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>Description</th>
+        <th>Lien</th>
+        <th>Éditeur</th>
+        <th>Licence</th>
+        <th>API</th>
+        <th>Modèle économique</th>
+        <th>Origine</th>
+    </tr>
+    <tr>
+        <td>Kaiber</td>
+        <td>Video Generation</td>
+        <td>AI-powered platform for creating videos and animations from text or images, featuring Superstudio for creative workflows.</td>
+        <td><a href="https://kaiber.ai">kaiber.ai</a></td>
+        <td>Kaiber AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>KickResume</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered tool for creating professional resumes and cover letters with customizable templates.</td>
+        <td><a href="https://www.kickresume.com">kickresume.com</a></td>
+        <td>KickResume</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Czech Republic</td>
+    </tr>
+    <tr>
+        <td>Leia Inc</td>
+        <td>Website Builder</td>
+        <td>AI-powered platform for building mobile-friendly websites with minimal user input.</td>
+        <td><a href="https://www.leia.io">leia.io</a></td>
+        <td>Leia Inc</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Longshot</td>
+        <td>Content Creation</td>
+        <td>AI tool for generating SEO-optimized blog posts and marketing content.</td>
+        <td><a href="https://www.longshot.ai">longshot.ai</a></td>
+        <td>Longshot AI</td>
+        <td>Proprietary</td>
+        <td>Available via Longshot API</td>
+        <td>Subscription-based</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td>Lovo</td>
+        <td>Text-to-Speech</td>
+        <td>AI-powered text-to-speech platform for creating realistic voiceovers for videos and presentations.</td>
+        <td><a href="https://lovo.ai">lovo.ai</a></td>
+        <td>Lovo AI</td>
+        <td>Proprietary</td>
+        <td>Available via Lovo API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Lucidpic</td>
+        <td>Image Generation</td>
+        <td>AI tool for generating and editing stock photos and avatars from text prompts.</td>
+        <td><a href="https://lucidpic.com">lucidpic.com</a></td>
+        <td>Lucidpic</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Markopolo</td>
+        <td>Marketing Automation</td>
+        <td>AI-powered platform for automating digital advertising and marketing campaigns.</td>
+        <td><a href="https://markopolo.ai">markopolo.ai</a></td>
+        <td>Markopolo</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Movio</td>
+        <td>Video Generation</td>
+        <td>AI tool for creating professional videos with virtual avatars from text inputs.</td>
+        <td><a href="https://www.movio.la">movio.la</a></td>
+        <td>Movio</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Murf AI</td>
+        <td>Text-to-Speech</td>
+        <td>AI-powered voice generator for creating studio-quality voiceovers for various applications.</td>
+        <td><a href="https://murf.ai">murf.ai</a></td>
+        <td>Murf AI</td>
+        <td>Proprietary</td>
+        <td>Available via Murf API</td>
+        <td>Freemium</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td>OpenJourney</td>
+        <td>Image Generation</td>
+        <td>AI image generator based on Stable Diffusion, creating art from text prompts.</td>
+        <td><a href="https://prompthero.com/openjourney">prompthero.com</a></td>
+        <td>PromptHero</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Penman</td>
+        <td>Writing Assistant</td>
+        <td>AI tool for generating creative writing, including stories and scripts.</td>
+        <td><a href="https://penman.ai">penman.ai</a></td>
+        <td>Penman AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Playground</td>
+        <td>Image Generation</td>
+        <td>AI-powered platform for creating and editing images, including art and social media content.</td>
+        <td><a href="https://playgroundai.com">playgroundai.com</a></td>
+        <td>Playground AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Poised</td>
+        <td>Speech Coaching</td>
+        <td>AI-powered tool for real-time speech coaching and communication improvement.</td>
+        <td><a href="https://www.poised.com">poised.com</a></td>
+        <td>Poised</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Postwise</td>
+        <td>Social Media Management</td>
+        <td>AI tool for creating and scheduling social media posts with optimized engagement.</td>
+        <td><a href="https://postwise.ai">postwise.ai</a></td>
+        <td>Postwise</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United Kingdom</td>
+    </tr>
+    <tr>
+        <td>Powermode</td>
+        <td>Presentation Generation</td>
+        <td>AI-powered tool for generating presentations and pitch decks from text prompts.</td>
+        <td><a href="https://powermode.ai">powermode.ai</a></td>
+        <td>Powermode</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Publer</td>
+        <td>Social Media Management</td>
+        <td>AI-enhanced platform for scheduling and analyzing social media content.</td>
+        <td><a href="https://publer.io">publer.io</a></td>
+        <td>Publer</td>
+        <td>Proprietary</td>
+        <td>Available via Publer API</td>
+        <td>Freemium</td>
+        <td>Albania</td>
+    </tr>
+    <tr>
+        <td>Quest</td>
+        <td>Content Creation</td>
+        <td>AI-powered tool for generating marketing content and optimizing campaigns.</td>
+        <td><a href="https://quest.ai">quest.ai</a></td>
+        <td>Quest AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>RemoveBG</td>
+        <td>Image Editing</td>
+        <td>AI-powered tool for automatically removing backgrounds from images.</td>
+        <td><a href="https://www.remove.bg">remove.bg</a></td>
+        <td>Kaleido AI</td>
+        <td>Proprietary</td>
+        <td>Available via RemoveBG API</td>
+        <td>Freemium</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Rephrase AI</td>
+        <td>Video Generation</td>
+        <td>AI tool for creating human-like avatar videos from text for marketing and training.</td>
+        <td><a href="https://www.rephrase.ai">rephrase.ai</a></td>
+        <td>Rephrase AI</td>
+        <td>Proprietary</td>
+        <td>Available via Rephrase AI API</td>
+        <td>Subscription-based</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td>Sendsteps</td>
+        <td>Presentation Generation</td>
+        <td>AI-powered tool for creating interactive presentations from text or documents.</td>
+        <td><a href="https://www.sendsteps.com">sendsteps.com</a></td>
+        <td>Sendsteps</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Netherlands</td>
+    </tr>
+    <tr>
+        <td>Sidekick AI</td>
+        <td>Productivity AI</td>
+        <td>AI-powered assistant for scheduling, task management, and communication.</td>
+        <td><a href="https://www.sidekickai.com">sidekickai.com</a></td>
+        <td>Sidekick AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Simplified</td>
+        <td>Content Creation</td>
+        <td>AI-powered platform for creating graphics, videos, and written content for marketing.</td>
+        <td><a href="https://simplified.com">simplified.com</a></td>
+        <td>Simplified</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>tl;dv</td>
+        <td>Meeting Summarization</td>
+        <td>AI-powered tool for recording, transcribing, and summarizing online meetings.</td>
+        <td><a href="https://tldv.io">tldv.io</a></td>
+        <td>tl;dv</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Tweetmonk</td>
+        <td>Social Media Management</td>
+        <td>AI-powered tool for creating and scheduling Twitter posts with optimized engagement.</td>
+        <td><a href="https://tweetmonk.com">tweetmonk.com</a></td>
+        <td>Tweetmonk</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td>uizard Autodesigner</td>
+        <td>UI Design</td>
+        <td>AI-powered tool for generating UI designs and prototypes from text prompts.</td>
+        <td><a href="https://uizard.io/autodesigner">uizard.io</a></td>
+        <td>Uizard</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Denmark</td>
+    </tr>
+    <tr>
+        <td>Upscale Media</td>
+        <td>Image Enhancement</td>
+        <td>AI-powered tool for upscaling and enhancing image resolution.</td>
+        <td><a href="https://www.upscale.media">upscale.media</a></td>
+        <td>Upscale Media</td>
+        <td>Proprietary</td>
+        <td>Available via Upscale Media API</td>
+        <td>Freemium</td>
+        <td>United Arab Emirates</td>
+    </tr>
+    <tr>
+        <td>Usechannel</td>
+        <td>Customer Support AI</td>
+        <td>AI-powered platform for automating customer support and engagement.</td>
+        <td><a href="https://usechannel.com">usechannel.com</a></td>
+        <td>Usechannel</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Vondy</td>
+        <td>AI Assistant</td>
+        <td>AI-powered platform offering tools for content creation, coding, and task automation.</td>
+        <td><a href="https://www.vondy.com">vondy.com</a></td>
+        <td>Vondy</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Wizi</td>
+        <td>E-commerce AI</td>
+        <td>AI-powered tool for enhancing e-commerce with product descriptions and SEO optimization.</td>
+        <td><a href="https://wizi.ai">wizi.ai</a></td>
+        <td>Wizi AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Writesonic</td>
+        <td>Content Creation</td>
+        <td>AI-powered platform for generating SEO-optimized content, including blogs and ads.</td>
+        <td><a href="https://writesonic.com">writesonic.com</a></td>
+        <td>Writesonic</td>
+        <td>Proprietary</td>
+        <td>Available via Writesonic API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Bing Image Generator</td>
+        <td>Image Generation</td>
+        <td>AI-powered tool integrated with Bing for creating images from text prompts using DALL·E 3.</td>
+        <td><a href="https://www.bing.com/images/create">bing.com</a></td>
+        <td>Microsoft</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Canvas Krea AI</td>
+        <td>Image Generation</td>
+        <td>AI-powered tool for creating and editing images with real-time generation features.</td>
+        <td><a href="https://www.krea.ai">krea.ai</a></td>
+        <td>Krea AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>Description</th>
+        <th>Lien</th>
+        <th>Éditeur</th>
+        <th>Licence</th>
+        <th>API</th>
+        <th>Modèle économique</th>
+        <th>Origine</th>
+    </tr>
+    <tr>
+        <td>Chat Explore</td>
+        <td>Conversational AI</td>
+        <td>AI-powered chatbot for exploring topics and answering queries interactively.</td>
+        <td><a href="https://chatexplore.com">chatexplore.com</a></td>
+        <td>Chat Explore</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>DomainsGPT</td>
+        <td>Domain Name Generator</td>
+        <td>AI tool for generating creative domain names based on user inputs.</td>
+        <td><a href="https://domainsgpt.ai">domainsgpt.ai</a></td>
+        <td>DomainsGPT</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Lexica Art</td>
+        <td>Image Generation</td>
+        <td>AI-powered platform for generating high-quality images and art from text prompts.</td>
+        <td><a href="https://lexica.art">lexica.art</a></td>
+        <td>Lexica</td>
+        <td>Proprietary</td>
+        <td>Available via Lexica API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Markprompt</td>
+        <td>AI Documentation</td>
+        <td>AI-powered tool for generating documentation and answering queries about codebases.</td>
+        <td><a href="https://markprompt.com">markprompt.com</a></td>
+        <td>Markprompt</td>
+        <td>Proprietary</td>
+        <td>Available via Markprompt API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Opera AI Browser</td>
+        <td>Browser AI</td>
+        <td>Browser with integrated AI assistant (Aria) for enhanced browsing and task automation.</td>
+        <td><a href="https://www.opera.com/features/aria">opera.com</a></td>
+        <td>Opera Software</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Norway</td>
+    </tr>
+    <tr>
+        <td>Scribble Diffusion</td>
+        <td>Image Generation</td>
+        <td>AI tool for transforming sketches into detailed images using diffusion models.</td>
+        <td><a href="https://scribblediffusion.com">scribblediffusion.com</a></td>
+        <td>Scribble Diffusion</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>ShareGPT</td>
+        <td>Conversational AI</td>
+        <td>Chrome extension for sharing ChatGPT conversations via permanent links, now deprecated.</td>[](https://github.com/korchasa/awesome-chatgpt)
+        <td><a href="https://github.com/domeccleston/sharegpt">github.com</a></td>
+        <td>Dom Eccleston</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Tripnotes</td>
+        <td>Travel Planning</td>
+        <td>AI-powered travel planner for creating personalized itineraries and recommendations.</td>
+        <td><a href="https://tripnotes.ai">tripnotes.ai</a></td>
+        <td>Tripnotes</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>AI Code Translator</td>
+        <td>Code Assistant</td>
+        <td>AI tool for translating code between programming languages with high accuracy.</td>
+        <td><a href="https://aicodeconvert.com">aicodeconvert.com</a></td>
+        <td>AI Code Translator</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>ChatABC</td>
+        <td>Conversational AI</td>
+        <td>Enhanced ChatGPT alternative with team collaboration, prompt library, and document upload features.</td>[](https://download.data.public.lu/resources/ai-tools/20230921-130016/tastic-ai-opensource-ai-tools-feuille-1.csv)
+        <td><a href="https://chatabc.ai">chatabc.ai</a></td>
+        <td>ChatABC</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Chatbot UI</td>
+        <td>Conversational AI</td>
+        <td>Open-source web UI for creating custom chatbots with a user-friendly interface.</td>
+        <td><a href="https://www.chatbotui.com">chatbotui.com</a></td>
+        <td>Chatbot UI</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Gamma</td>
+        <td>Presentation Generation</td>
+        <td>AI-powered tool for creating presentations, documents, and websites from text prompts.</td>
+        <td><a href="https://gamma.app">gamma.app</a></td>
+        <td>Gamma</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Llama CPP</td>
+        <td>AI Framework</td>
+        <td>Open-source C++ library for running LLaMA models locally with performance optimization.</td>[](https://gist.github.com/0xdevalias/09a5c27702cb94f81c9fb4b7434df966)
+        <td><a href="https://github.com/ggerganov/llama.cpp">github.com</a></td>
+        <td>Georgi Gerganov</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Otter</td>
+        <td>Meeting Summarization</td>
+        <td>AI-powered tool for transcribing and summarizing meetings in real-time.</td>
+        <td><a href="https://otter.ai">otter.ai</a></td>
+        <td>Otter.ai</td>
+        <td>Proprietary</td>
+        <td>Available via Otter API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Perplexity</td>
+        <td>Conversational AI</td>
+        <td>AI-powered search engine and chatbot for answering queries with real-time web data.</td>[](https://www.glbgpt.com/)
+        <td><a href="https://www.perplexity.ai">perplexity.ai</a></td>
+        <td>Perplexity AI</td>
+        <td>Proprietary</td>
+        <td>Available via Perplexity API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Scenario</td>
+        <td>Image Generation</td>
+        <td>AI-powered platform for creating custom game assets and images from text prompts.</td>
+        <td><a href="https://www.scenario.com">scenario.com</a></td>
+        <td>Scenario</td>
+        <td>Proprietary</td>
+        <td>Available via Scenario API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Spline AI</td>
+        <td>3D Design</td>
+        <td>AI-powered tool for generating and editing 3D designs and animations from text prompts.</td>
+        <td><a href="https://spline.design/ai">spline.design</a></td>
+        <td>Spline</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Second</td>
+        <td>AI Development</td>
+        <td>AI-powered platform for automating software development and code generation.</td>
+        <td><a href="https://second.dev">second.dev</a></td>
+        <td>Second</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Essense</td>
+        <td>User Research AI</td>
+        <td>AI tool for analyzing user feedback and generating insights for product development.</td>
+        <td><a href="https://essense.ai">essense.ai</a></td>
+        <td>Essense</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Helicone</td>
+        <td>AI Monitoring</td>
+        <td>AI-powered observability platform for monitoring and optimizing LLM applications.</td>
+        <td><a href="https://www.helicone.ai">helicone.ai</a></td>
+        <td>Helicone</td>
+        <td>Proprietary</td>
+        <td>Available via Helicone API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Flower</td>
+        <td>AI Framework</td>
+        <td>Open-source framework for federated learning and distributed AI model training.</td>
+        <td><a href="https://flower.dev">flower.dev</a></td>
+        <td>Flower</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United Kingdom</td>
+    </tr>
+    <tr>
+        <td>Bloop</td>
+        <td>Code Assistant</td>
+        <td>AI-powered tool for answering code-related questions and navigating codebases.</td>
+        <td><a href="https://bloop.ai">bloop.ai</a></td>
+        <td>Bloop</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United Kingdom</td>
+    </tr>
+    <tr>
+        <td>Ora</td>
+        <td>Conversational AI</td>
+        <td>AI-powered platform for creating and deploying custom chatbots with no-code tools.</td>
+        <td><a href="https://ora.ai">ora.ai</a></td>
+        <td>Ora</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Jenni</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered writing assistant for generating academic papers, essays, and creative content.</td>
+        <td><a href="https://jenni.ai">jenni.ai</a></td>
+        <td>Jenni AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>HeadShotPro</td>
+        <td>Image Generation</td>
+        <td>AI-powered tool for generating professional headshots from user-uploaded photos.</td>
+        <td><a href="https://www.headshotpro.com">headshotpro.com</a></td>
+        <td>HeadShotPro</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Pay-per-use</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Tome</td>
+        <td>Presentation Generation</td>
+        <td>AI-powered tool for creating interactive presentations and storytelling content.</td>
+        <td><a href="https://tome.app">tome.app</a></td>
+        <td>Tome</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>GPT Plugins</td>
+        <td>AI Extension</td>
+        <td>Plugins for extending ChatGPT functionality, including web search and document retrieval.</td>[](https://github.com/HighwayofLife/awesome-chatgpt-plugins)
+        <td><a href="https://openai.com/chatgpt/plugins">openai.com</a></td>
+        <td>OpenAI</td>
+        <td>Proprietary</td>
+        <td>Available via OpenAI API</td>
+        <td>Subscription-based (ChatGPT Plus)</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Auto-GPT</td>
+        <td>AI Agent</td>
+        <td>Open-source autonomous AI agent for task automation using GPT models.</td>
+        <td><a href="https://github.com/Significant-Gravitas/Auto-GPT">github.com</a></td>
+        <td>Significant Gravitas</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>SublimeGPT</td>
+        <td>Code Assistant</td>
+        <td>AI-powered plugin for Sublime Text to assist with code generation and completion.</td>
+        <td><a href="https://sublimegpt.com">sublimegpt.com</a></td>
+        <td>SublimeGPT</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Typebot</td>
+        <td>Conversational AI</td>
+        <td>Open-source platform for building interactive chatbots with a visual editor.</td>
+        <td><a href="https://typebot.io">typebot.io</a></td>
+        <td>Typebot</td>
+        <td>Open Source (GPL-3.0)</td>
+        <td>Available via Typebot API</td>
+        <td>Freemium</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>Civitai</td>
+        <td>AI Art Community</td>
+        <td>Open-source model-sharing hub for AI art generation, focusing on community contributions.</td>[](https://download.data.public.lu/resources/ai-tools/20230921-130016/tastic-ai-opensource-ai-tools-feuille-1.csv)
+        <td><a href="https://civitai.com">civitai.com</a></td>
+        <td>Civitai</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>ChatORG</td>
+        <td>Conversational AI</td>
+        <td>AI-powered platform for organizing and managing team conversations.</td>
+        <td><a href="https://chatorg.ai">chatorg.ai</a></td>
+        <td>ChatORG</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>FAISS</td>
+        <td>AI Framework</td>
+        <td>Open-source library for efficient similarity search and clustering of dense vectors.</td>
+        <td><a href="https://github.com/facebookresearch/faiss">github.com</a></td>
+        <td>Meta AI</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Chroma</td>
+        <td>Vector Database</td>
+        <td>Open-source vector database for storing and querying embeddings for AI applications.</td>[](https://github.com/openai/chatgpt-retrieval-plugin)
+        <td><a href="https://www.trychroma.com">trychroma.com</a></td>
+        <td>Chroma</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via Chroma API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Llama Hub</td>
+        <td>AI Framework</td>
+        <td>Collection of tools and integrations for LLaMA models, enhancing LLM workflows.</td>
+        <td><a href="https://llamahub.ai">llamahub.ai</a></td>
+        <td>LlamaIndex</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Weaviate</td>
+        <td>Vector Database</td>
+        <td>Open-source vector search engine for scalable AI data storage and retrieval.</td>[](https://github.com/openai/chatgpt-retrieval-plugin)
+        <td><a href="https://weaviate.io">weaviate.io</a></td>
+        <td>Weaviate</td>
+        <td>Open Source (BSD-3-Clause)</td>
+        <td>Available via Weaviate API</td>
+        <td>Freemium</td>
+        <td>Netherlands</td>
+    </tr>
+    <tr>
+        <td>Pinecone</td>
+        <td>Vector Database</td>
+        <td>Managed vector database for fast, scalable AI embeddings storage and search.</td>[](https://github.com/openai/chatgpt-retrieval-plugin)
+        <td><a href="https://www.pinecone.io">pinecone.io</a></td>
+        <td>Pinecone</td>
+        <td>Proprietary</td>
+        <td>Available via Pinecone API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>LMQL</td>
+        <td>AI Programming</td>
+        <td>Python-based language for constraint-guided interaction with large language models.</td>[](https://github.com/korchasa/awesome-chatgpt)
+        <td><a href="https://lmql.ai">lmql.ai</a></td>
+        <td>LMQL</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Langflow</td>
+        <td>AI Framework</td>
+        <td>Open-source platform for building and deploying LLM-based applications visually.</td>
+        <td><a href="https://langflow.org">langflow.org</a></td>
+        <td>Langflow</td>
+        <td>Open Source (MIT License)</td>
+        <td>Available via Langflow API</td>
+        <td>Freemium</td>
+        <td>Brazil</td>
+    </tr>
+    <tr>
+        <td>IFTTT AI</td>
+        <td>Automation AI</td>
+        <td>AI-powered automation platform for connecting apps and services with custom workflows.</td>
+        <td><a href="https://ifttt.com/ai">ifttt.com</a></td>
+        <td>IFTTT</td>
+        <td>Proprietary</td>
+        <td>Available via IFTTT API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>Description</th>
+        <th>Lien</th>
+        <th>Éditeur</th>
+        <th>Licence</th>
+        <th>API</th>
+        <th>Modèle économique</th>
+        <th>Origine</th>
+    </tr>
+    <tr>
+        <td>AgentGPT</td>
+        <td>AI Agent</td>
+        <td>Browser-based platform for configuring and deploying autonomous AI agents for task automation.</td>[](https://agentgpt.reworkd.ai/)
+        <td><a href="https://agentgpt.reworkd.ai">agentgpt.reworkd.ai</a></td>
+        <td>Reworkd</td>
+        <td>Open Source (MIT License)</td>
+        <td>Requires OpenAI API key</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Databerry</td>
+        <td>Conversational AI</td>
+        <td>No-code platform for building custom AI chatbots integrated with user data sources.</td>
+        <td><a href="https://databerry.ai">databerry.ai</a></td>
+        <td>Databerry</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Opus</td>
+        <td>Video Generation</td>
+        <td>AI-powered platform for generating and editing videos from text prompts or footage.</td>
+        <td><a href="https://www.opus.ai">opus.ai</a></td>
+        <td>Opus</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Gptify</td>
+        <td>Conversational AI</td>
+        <td>AI tool for creating custom chatbots with integration for business workflows.</td>
+        <td><a href="https://gptify.ai">gptify.ai</a></td>
+        <td>Gptify</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Flowise</td>
+        <td>AI Framework</td>
+        <td>Open-source drag-and-drop platform for building and deploying LLM workflows.</td>[](https://github.com/korchasa/awesome-chatgpt)
+        <td><a href="https://flowiseai.com">flowiseai.com</a></td>
+        <td>FlowiseAI</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via Flowise API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>BabyAGI</td>
+        <td>AI Agent</td>
+        <td>Open-source AI agent for task automation based on previous task results and objectives.</td>[](https://mashable.com/article/autogpt-ai-agents-how-to-get-access)
+        <td><a href="https://babyagi.org">babyagi.org</a></td>
+        <td>Yohei Nakajima</td>
+        <td>Open Source (MIT License)</td>
+        <td>Requires OpenAI/Pinecone API</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Adept</td>
+        <td>AI Assistant</td>
+        <td>AI platform for automating complex workflows with natural language processing.</td>
+        <td><a href="https://www.adept.ai">adept.ai</a></td>
+        <td>Adept AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Character.ai</td>
+        <td>Conversational AI</td>
+        <td>Platform for creating and interacting with personalized AI characters for roleplay and dialogue.</td>
+        <td><a href="https://character.ai">character.ai</a></td>
+        <td>Character.AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Runway</td>
+        <td>Video/Image Generation</td>
+        <td>AI-powered platform for creating and editing videos, images, and 3D models from text prompts.</td>
+        <td><a href="https://runwayml.com">runwayml.com</a></td>
+        <td>Runway</td>
+        <td>Proprietary</td>
+        <td>Available via Runway API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>SuperPower ChatGPT</td>
+        <td>Browser Extension</td>
+        <td>Chrome extension enhancing ChatGPT with prompt management and conversation organization.</td>
+        <td><a href="https://superpowerchatgpt.com">superpowerchatgpt.com</a></td>
+        <td>SuperPower</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Raycast AI</td>
+        <td>Productivity AI</td>
+        <td>AI-powered productivity tool for macOS, integrating with apps for task automation.</td>
+        <td><a href="https://www.raycast.com/ai">raycast.com</a></td>
+        <td>Raycast</td>
+        <td>Proprietary</td>
+        <td>Available via Raycast API</td>
+        <td>Freemium</td>
+        <td>United Kingdom</td>
+    </tr>
+    <tr>
+        <td>Leap</td>
+        <td>AI Integration</td>
+        <td>AI platform for integrating generative AI into applications for text, image, and more.</td>
+        <td><a href="https://www.tryleap.ai">tryleap.ai</a></td>
+        <td>Leap AI</td>
+        <td>Proprietary</td>
+        <td>Available via Leap API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Cognosys</td>
+        <td>AI Agent</td>
+        <td>AI-powered platform for building and deploying autonomous agents for task automation.</td>
+        <td><a href="https://cognosys.ai">cognosys.ai</a></td>
+        <td>Cognosys</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Rewind</td>
+        <td>Productivity AI</td>
+        <td>AI tool for macOS that records activity to enable search and recall of past work.</td>
+        <td><a href="https://www.rewind.ai">rewind.ai</a></td>
+        <td>Rewind</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Augie</td>
+        <td>Video Generation</td>
+        <td>AI-powered tool for creating and editing videos for social media and marketing.</td>
+        <td><a href="https://www.meetaugie.com">meetaugie.com</a></td>
+        <td>Augie</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>DreamStudio</td>
+        <td>Image Generation</td>
+        <td>AI-powered platform by Stability AI for generating images using Stable Diffusion.</td>
+        <td><a href="https://dreamstudio.ai">dreamstudio.ai</a></td>
+        <td>Stability AI</td>
+        <td>Proprietary</td>
+        <td>Available via Stability AI API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Vectorizer</td>
+        <td>Image Editing</td>
+        <td>AI tool for converting raster images to scalable vector graphics.</td>
+        <td><a href="https://www.vectorizer.ai">vectorizer.ai</a></td>
+        <td>Vectorizer AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Filechat</td>
+        <td>Conversational AI</td>
+        <td>AI tool for interacting with documents, enabling Q&A and summarization from files.</td>
+        <td><a href="https://filechat.io">filechat.io</a></td>
+        <td>Filechat</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Open Assistant</td>
+        <td>Conversational AI</td>
+        <td>Open-source chat-based assistant for tasks and dynamic information retrieval.</td>[](https://github.com/EwingYangs/awesome-open-gpt/blob/main/README_en.md)
+        <td><a href="https://open-assistant.io">open-assistant.io</a></td>
+        <td>Open Assistant</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Pytorch</td>
+        <td>AI Framework</td>
+        <td>Open-source machine learning framework for building and training AI models.</td>
+        <td><a href="https://pytorch.org">pytorch.org</a></td>
+        <td>Meta AI</td>
+        <td>Open Source (BSD-3-Clause)</td>
+        <td>Available via PyTorch API</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Bloomz & MT0</td>
+        <td>Language Model</td>
+        <td>Open-source LLMs by BigScience for multilingual text generation and tasks.</td>
+        <td><a href="https://huggingface.co/bigscience">huggingface.co</a></td>
+        <td>BigScience</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via Hugging Face API</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>GPT4All</td>
+        <td>Language Model</td>
+        <td>Open-source ecosystem for running LLMs locally without API calls.</td>[](https://github.com/korchasa/awesome-chatgpt)
+        <td><a href="https://gpt4all.io">gpt4all.io</a></td>
+        <td>Nomic AI</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Baize</td>
+        <td>Language Model</td>
+        <td>Open-source chatbot model fine-tuned for conversational tasks.</td>
+        <td><a href="https://github.com/project-baize">github.com</a></td>
+        <td>Project Baize</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Claude</td>
+        <td>Conversational AI</td>
+        <td>AI conversational model by Anthropic, competing with ChatGPT.</td>
+        <td><a href="https://www.anthropic.com">anthropic.com</a></td>
+        <td>Anthropic</td>
+        <td>Proprietary</td>
+        <td>Available via Anthropic API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Jasper</td>
+        <td>Content Creation</td>
+        <td>AI-powered platform for generating marketing content and copywriting.</td>
+        <td><a href="https://www.jasper.ai">jasper.ai</a></td>
+        <td>Jasper</td>
+        <td>Proprietary</td>
+        <td>Available via Jasper API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>TensorFlow</td>
+        <td>AI Framework</td>
+        <td>Open-source machine learning framework for building and deploying AI models.</td>
+        <td><a href="https://www.tensorflow.org">tensorflow.org</a></td>
+        <td>Google</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via TensorFlow API</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Yeager</td>
+        <td>AI Agent</td>
+        <td>AI-powered platform for automating workflows and task management.</td>
+        <td><a href="https://yeager.ai">yeager.ai</a></td>
+        <td>Yeager</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>BlueWillow</td>
+        <td>Image Generation</td>
+        <td>AI-powered tool for generating high-quality images from text prompts.</td>
+        <td><a href="https://www.bluewillow.ai">bluewillow.ai</a></td>
+        <td>BlueWillow</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>AI Playground Vercel</td>
+        <td>AI Development</td>
+        <td>Platform for experimenting with AI models and deploying apps on Vercel.</td>
+        <td><a href="https://vercel.com/templates/ai">vercel.com</a></td>
+        <td>Vercel</td>
+        <td>Proprietary</td>
+        <td>Available via Vercel API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Godmode</td>
+        <td>AI Agent</td>
+        <td>Browser-based AI agent platform for task automation with a user-friendly interface.</td>[](https://mashable.com/article/autogpt-ai-agents-how-to-get-access)
+        <td><a href="https://godmode.space">godmode.space</a></td>
+        <td>Godmode</td>
+        <td>Proprietary</td>
+        <td>Requires OpenAI API key</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Debuild</td>
+        <td>AI Development</td>
+        <td>AI-powered platform for generating web apps from text descriptions.</td>
+        <td><a href="https://debuild.app">debuild.app</a></td>
+        <td>Debuild</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>VisualEyes</td>
+        <td>UI/UX Analysis</td>
+        <td>AI-powered tool for analyzing user attention and optimizing UI/UX designs.</td>
+        <td><a href="https://www.visualeyes.design">visualeyes.design</a></td>
+        <td>VisualEyes</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Italy</td>
+    </tr>
+    <tr>
+        <td>Khroma</td>
+        <td>Design AI</td>
+        <td>AI-powered tool for generating personalized color palettes for design projects.</td>
+        <td><a href="https://www.khroma.co">khroma.co</a></td>
+        <td>Khroma</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Fronty</td>
+        <td>Website Builder</td>
+        <td>AI-powered tool for converting images to HTML/CSS code for website creation.</td>
+        <td><a href="https://fronty.com">fronty.com</a></td>
+        <td>Fronty</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Fontjoy</td>
+        <td>Design AI</td>
+        <td>AI-powered tool for generating font pairings for design projects.</td>
+        <td><a href="https://fontjoy.com">fontjoy.com</a></td>
+        <td>Fontjoy</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>HuggingChat</td>
+        <td>Conversational AI</td>
+        <td>Open-source conversational AI platform by Hugging Face for chatbot interactions.</td>
+        <td><a href="https://huggingface.co/chat">huggingface.co</a></td>
+        <td>Hugging Face</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via Hugging Face API</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>SiteGPT</td>
+        <td>Conversational AI</td>
+        <td>AI-powered chatbot for websites, trained on site content for customer support.</td>
+        <td><a href="https://sitegpt.ai">sitegpt.ai</a></td>
+        <td>SiteGPT</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>ReaderGPT</td>
+        <td>Conversational AI</td>
+        <td>AI tool for summarizing and interacting with web articles and documents.</td>
+        <td><a href="https://readergpt.com">readergpt.com</a></td>
+        <td>ReaderGPT</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Catégorie</th>
+        <th>Description</th>
+        <th>Lien</th>
+        <th>Éditeur</th>
+        <th>Licence</th>
+        <th>API</th>
+        <th>Modèle économique</th>
+        <th>Origine</th>
+    </tr>
+    <tr>
+        <td>DeepMotion</td>
+        <td>Motion Capture</td>
+        <td>AI-powered motion capture tool for creating 3D animations from video inputs.</td>
+        <td><a href="https://www.deepmotion.com">deepmotion.com</a></td>
+        <td>DeepMotion</td>
+        <td>Proprietary</td>
+        <td>Available via DeepMotion API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>StableVicuna</td>
+        <td>Conversational AI</td>
+        <td>Open-source chatbot model fine-tuned from Vicuna for enhanced conversational performance.</td>
+        <td><a href="https://huggingface.co/lmsys/vicuna">huggingface.co</a></td>
+        <td>LMSYS</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>DeepFloyd IF</td>
+        <td>Image Generation</td>
+        <td>State-of-the-art text-to-image model with high photorealism and text integration, using cascaded pixel diffusion.</td>
+        <td><a href="https://www.stability.ai">stability.ai</a></td>
+        <td>Stability AI</td>
+        <td>Research License (to be open-source)</td>
+        <td>Available via Hugging Face API</td>
+        <td>Free (research use)</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Mendable</td>
+        <td>Conversational AI</td>
+        <td>AI-powered search and chatbot for documentation, enabling natural language queries.</td>
+        <td><a href="https://mendable.ai">mendable.ai</a></td>
+        <td>Mendable</td>
+        <td>Proprietary</td>
+        <td>Available via Mendable API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>PaletteBrain</td>
+        <td>Productivity AI</td>
+        <td>AI-powered macOS app for integrating generative AI into workflows across applications.</td>
+        <td><a href="https://palettebrain.com">palettebrain.com</a></td>
+        <td>PaletteBrain</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>AutoTrain</td>
+        <td>AI Framework</td>
+        <td>Hugging Face tool for automating machine learning model training with minimal coding.</td>
+        <td><a href="https://huggingface.co/autotrain">huggingface.co</a></td>
+        <td>Hugging Face</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via Hugging Face API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>ChatBotKit</td>
+        <td>Conversational AI</td>
+        <td>Platform for building advanced AI chatbots with custom data integration for websites and apps.</td>
+        <td><a href="https://chatbotkit.com">chatbotkit.com</a></td>
+        <td>ChatBotKit</td>
+        <td>Proprietary</td>
+        <td>Available via ChatBotKit API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Dream3D</td>
+        <td>3D Generation</td>
+        <td>AI-powered tool for generating 3D models and scenes from text or images.</td>
+        <td><a href="https://dream3d.ai">dream3d.ai</a></td>
+        <td>Dream3D</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>EnhanceDocs</td>
+        <td>Documentation AI</td>
+        <td>AI-powered tool for improving and searching technical documentation with natural language.</td>
+        <td><a href="https://enhancedocs.com">enhancedocs.com</a></td>
+        <td>EnhanceDocs</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>PDF.ai</td>
+        <td>Document AI</td>
+        <td>AI tool for interacting with PDF documents, enabling summarization and Q&A.</td>
+        <td><a href="https://pdf.ai">pdf.ai</a></td>
+        <td>PDF.ai</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Folk CRM</td>
+        <td>CRM AI</td>
+        <td>AI-enhanced CRM platform for managing contacts and automating outreach.</td>
+        <td><a href="https://www.folk.app">folk.app</a></td>
+        <td>Folk</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>Help.center</td>
+        <td>Customer Support AI</td>
+        <td>AI-powered help desk for creating knowledge bases and automating customer support.</td>
+        <td><a href="https://help.center">help.center</a></td>
+        <td>Help.center</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Quivr</td>
+        <td>Knowledge Management</td>
+        <td>Open-source AI tool for organizing and querying personal knowledge bases.</td>
+        <td><a href="https://quivr.app">quivr.app</a></td>
+        <td>Quivr</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>GeneratedBy</td>
+        <td>Content Creation</td>
+        <td>AI-powered platform for generating marketing content and social media posts.</td>
+        <td><a href="https://generatedby.com">generatedby.com</a></td>
+        <td>GeneratedBy</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>PrivateGPT</td>
+        <td>Conversational AI</td>
+        <td>Privacy-focused AI chatbot for local deployment with no external API dependency.</td>
+        <td><a href="https://github.com/imartinez/privateGPT">github.com</a></td>
+        <td>Individual Developer</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Voicify</td>
+        <td>Text-to-Speech</td>
+        <td>AI-powered platform for generating custom voiceovers and music tracks.</td>
+        <td><a href="https://voicify.ai">voicify.ai</a></td>
+        <td>Voicify</td>
+        <td>Proprietary</td>
+        <td>Available via Voicify API</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Zoo Replicate</td>
+        <td>AI Framework</td>
+        <td>Platform for running and sharing machine learning models in the cloud.</td>
+        <td><a href="https://replicate.com">replicate.com</a></td>
+        <td>Replicate</td>
+        <td>Proprietary</td>
+        <td>Available via Replicate API</td>
+        <td>Pay-per-use</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>ChatALL</td>
+        <td>Conversational AI</td>
+        <td>Tool for interacting with multiple AI chatbots simultaneously for comparison.</td>
+        <td><a href="https://chatall.ai">chatall.ai</a></td>
+        <td>ChatALL</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Langdock</td>
+        <td>Conversational AI</td>
+        <td>AI-powered platform for building and deploying custom chatbots for enterprises.</td>
+        <td><a href="https://langdock.com">langdock.com</a></td>
+        <td>Langdock</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>useChatGPT</td>
+        <td>Browser Extension</td>
+        <td>Browser extension for integrating ChatGPT into workflows for text generation.</td>
+        <td><a href="https://usechatgpt.ai">usechatgpt.ai</a></td>
+        <td>useChatGPT</td>
+        <td>Proprietary</td>
+        <td>Requires OpenAI API key</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>ChatHub</td>
+        <td>Conversational AI</td>
+        <td>Browser extension for interacting with multiple AI chatbots in one interface.</td>
+        <td><a href="https://chathub.dev">chathub.dev</a></td>
+        <td>ChatHub</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Cyte</td>
+        <td>Productivity AI</td>
+        <td>AI-powered note-taking and knowledge management tool for professionals.</td>
+        <td><a href="https://cyte.ai">cyte.ai</a></td>
+        <td>Cyte</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>CreateChatApp</td>
+        <td>Conversational AI</td>
+        <td>Platform for building custom AI chatbots with no-code tools.</td>
+        <td><a href="https://createchatapp.com">createchatapp.com</a></td>
+        <td>CreateChatApp</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Writers Brew</td>
+        <td>Writing Assistant</td>
+        <td>AI-powered writing assistant for generating and refining content across platforms.</td>
+        <td><a href="https://writersbrew.app">writersbrew.app</a></td>
+        <td>Writers Brew</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>CourseAI</td>
+        <td>Educational AI</td>
+        <td>AI-powered platform for creating personalized online courses and learning materials.</td>
+        <td><a href="https://courseai.com">courseai.com</a></td>
+        <td>CourseAI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Learning Studio AI</td>
+        <td>Educational AI</td>
+        <td>AI-powered tool for creating interactive educational content and courses.</td>
+        <td><a href="https://learningstudio.ai">learningstudio.ai</a></td>
+        <td>Learning Studio AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>SciSummary</td>
+        <td>AI Summarizer</td>
+        <td>AI-powered tool for summarizing scientific articles via email or web interface.</td>
+        <td><a href="https://scisummary.com">scisummary.com</a></td>
+        <td>SciSummary</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Codeamigo</td>
+        <td>Educational AI</td>
+        <td>Interactive coding tutorial tool with AI-powered guidance for learning to code.</td>
+        <td><a href="https://codeamigo.dev">codeamigo.dev</a></td>
+        <td>Codeamigo</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Clipdrop</td>
+        <td>Image Editing</td>
+        <td>AI-powered suite for image editing, background removal, and generation.</td>
+        <td><a href="https://clipdrop.co">clipdrop.co</a></td>
+        <td>Stability AI</td>
+        <td>Proprietary</td>
+        <td>Available via Clipdrop API</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Uncody</td>
+        <td>Website Builder</td>
+        <td>AI-powered tool for generating websites from text prompts or images.</td>
+        <td><a href="https://uncody.com">uncody.com</a></td>
+        <td>Uncody</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>MarkDX</td>
+        <td>Documentation AI</td>
+        <td>AI-powered tool for creating and managing Markdown-based documentation.</td>
+        <td><a href="https://markdx.io">markdx.io</a></td>
+        <td>MarkDX</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Olvy</td>
+        <td>User Feedback AI</td>
+        <td>AI-powered platform for analyzing user feedback and improving product development.</td>
+        <td><a href="https://olvy.co">olvy.co</a></td>
+        <td>Olvy</td>
+        <td>Proprietary</td>
+        <td>Available via Olvy API</td>
+        <td>Subscription-based</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td>BacklinkGPT</td>
+        <td>SEO AI</td>
+        <td>AI-powered tool for generating outreach messages to acquire backlinks for SEO.</td>
+        <td><a href="https://backlinkgpt.com">backlinkgpt.com</a></td>
+        <td>BacklinkGPT</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>LLM Report</td>
+        <td>AI Analytics</td>
+        <td>AI-powered tool for generating reports and insights from large language models.</td>
+        <td><a href="https://llmreport.com">llmreport.com</a></td>
+        <td>LLM Report</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Shot Rate</td>
+        <td>Image Analysis</td>
+        <td>AI-powered tool for analyzing and rating images for quality and aesthetics.</td>
+        <td><a href="https://shotrate.com">shotrate.com</a></td>
+        <td>Shot Rate</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Simpler</td>
+        <td>Productivity AI</td>
+        <td>AI-powered task management and productivity app with natural language input.</td>
+        <td><a href="https://simpler.ai">simpler.ai</a></td>
+        <td>Simpler</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>LocalGPT</td>
+        <td>Conversational AI</td>
+        <td>Open-source AI chatbot for local deployment with privacy-focused design.</td>
+        <td><a href="https://github.com/PromtEngineer/localGPT">github.com</a></td>
+        <td>Individual Developer</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>InternGPT</td>
+        <td>Conversational AI</td>
+        <td>AI-powered assistant for task automation and visual interaction.</td>
+        <td><a href="https://github.com/OpenGVLab/InternGPT">github.com</a></td>
+        <td>OpenGVLab</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>China</td>
+    </tr>
+    <tr>
+        <td>SuperAGI</td>
+        <td>AI Agent</td>
+        <td>Open-source platform for building and deploying autonomous AI agents.</td>
+        <td><a href="https://superagi.com">superagi.com</a></td>
+        <td>SuperAGI</td>
+        <td>Open Source (MIT License)</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Uncrop</td>
+        <td>Image Editing</td>
+        <td>AI-powered tool for extending image boundaries to create uncropped versions.</td>
+        <td><a href="https://clipdrop.co/uncrop">clipdrop.co</a></td>
+        <td>Stability AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Framer AI</td>
+        <td>Website Builder</td>
+        <td>AI-powered tool for generating and designing websites within the Framer platform.</td>
+        <td><a href="https://www.framer.com/ai">framer.com</a></td>
+        <td>Framer</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Netherlands</td>
+    </tr>
+    <tr>
+        <td>Liftoff Interview</td>
+        <td>Interview Preparation</td>
+        <td>AI-powered tool for mock interviews and job interview preparation.</td>
+        <td><a href="https://liftoffinterview.com">liftoffinterview.com</a></td>
+        <td>Liftoff</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>UseChat AI</td>
+        <td>Conversational AI</td>
+        <td>AI-powered chatbot for websites, trained on site content for customer support.</td>
+        <td><a href="https://usechat.ai">usechat.ai</a></td>
+        <td>UseChat</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>OpenLLM</td>
+        <td>AI Framework</td>
+        <td>Open-source platform for deploying and managing large language models.</td>
+        <td><a href="https://github.com/bentoml/OpenLLM">github.com</a></td>
+        <td>BentoML</td>
+        <td>Open Source (Apache 2.0)</td>
+        <td>Available via OpenLLM API</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Movie Deep Search</td>
+        <td>Search AI</td>
+        <td>AI-powered search tool for finding movies based on detailed descriptions.</td>
+        <td><a href="https://moviedeepsearch.com">moviedeepsearch.com</a></td>
+        <td>Movie Deep Search</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Dora AI</td>
+        <td>Website Builder</td>
+        <td>AI-powered platform for generating interactive 3D websites from text prompts.</td>
+        <td><a href="https://www.dora.run/ai">dora.run</a></td>
+        <td>Dora</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Wonder Dynamics</td>
+        <td>Video Generation</td>
+        <td>AI-powered platform for creating animated films and VFX with minimal effort.</td>
+        <td><a href="https://wonderdynamics.com">wonderdynamics.com</a></td>
+        <td>Wonder Dynamics</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>AI Companion</td>
+        <td>Conversational AI</td>
+        <td>AI-powered virtual assistant for personalized interactions and task support.</td>
+        <td><a href="https://aicompany.io">aicompany.io</a></td>
+        <td>AI Companion</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Stable Doodle</td>
+        <td>Image Generation</td>
+        <td>AI-powered tool by Stability AI for converting sketches to detailed images.</td>
+        <td><a href="https://clipdrop.co/stable-doodle">clipdrop.co</a></td>
+        <td>Stability AI</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Automorphic</td>
+        <td>AI Framework</td>
+        <td>Platform for building and deploying AI models with focus on automation.</td>
+        <td><a href="https://automorphic.ai">automorphic.ai</a></td>
+        <td>Automorphic</td>
+        <td>Propririka>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>LLaMa Chat</td>
+        <td>Conversational AI</td>
+        <td>Open-source conversational AI based on Meta’s LLaMA model for local deployment.</td>
+        <td><a href="https://github.com/facebookresearch/llama">github.com</a></td>
+        <td>Meta AI</td>
+        <td>Open Source (Research License)</td>
+        <td>Not publicly available</td>
+        <td>Free</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Preceden</td>
+        <td>Productivity AI</td>
+        <td>AI-powered tool for creating timelines and project planning visuals.</td>
+        <td><a href="https://www.preceden.com">preceden.com</a></td>
+        <td>Preceden</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Subscription-based</td>
+        <td>United States</td>
+    </tr>
+    <tr>
+        <td>Summarize Tools</td>
+        <td>AI Summarizer</td>
+        <td>AI-powered suite for summarizing text, documents, and web content.</td>
+        <td><a href="https://summarizetools.com">summarizetools.com</a></td>
+        <td>Summarize Tools</td>
+        <td>Proprietary</td>
+        <td>Not publicly available</td>
+        <td>Freemium</td>
+        <td>Unknown</td>
+    </tr>
+</tbody>
+</table>
+</body>
+</html>
