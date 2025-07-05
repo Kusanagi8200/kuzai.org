@@ -56,45 +56,83 @@
       <label for="searchCategory" style="color: #000; font-weight: bold;">LOOKING ALL IN ONE CATEGORIE</label>
       <select id="searchCategory" class="select-field">
         <option value="">-- ALL CATEGORIES --</option>
-        <option>lConversational</option>
-        <option>Code</option>
-        <option>Photo/Vidéo</option>
-        <option>Music</option>
-        <option>Miscellaneous</option>
-        <option>Image Generation</option>
-        <option>Productivity AI</option>
-        <option>Text Processing</option>
-        <option>AI Platform</option>
-        <option>Image Enhancement</option>
-        <option>Speech-to-Text</option>
-        <option>Writing Assistant</option>
-        <option>Content Creation</option>
-        <option>Text Summarization</option>
-        <option>Presentation Generation</option>
-        <option>Autonomous Driving</option>
-        <option>Writing Assistant</option>
-        <option>Search Assistant</option>
-        <option>UI Design</option>
-        <option>AI Storytelling</option>
-        <option>Document Interaction</option>
-        <option>Content Recommendation</option>
-        <option>AI Framework</option>
-        <option>AI Monitoring</option>
-        <option>Video Editing</option>
-        <option>Command Line AI</option>
-        <option>Browser Extension</option>
-        <option>User Research AI</option>
-        <option>Code Assistant</option>
-        <option>Vector Database</option>
-        <option>AI Programming</option>
-        <option>Language Model</option>
-        <option>Website Builder</option>
-        <option>Customer Support AI</option>
-        <option>Knowledge Management</option>
-        <option>Educational AI</option>
-        <option>Documentation AI</option>
-        <option>User Feedback AI</option>
-        <option>Interview Preparation</option>
+<option>3D Design</option>
+<option>3D Generation</option>
+<option>AI Agent</option>
+<option>AI Analytics</option>
+<option>AI Art Community</option>
+<option>AI Assistant</option>
+<option>AI Development</option>
+<option>AI Documentation</option>
+<option>AI Extension</option>
+<option>AI Framework</option>
+<option>AI Integration</option>
+<option>AI Monitoring</option>
+<option>AI Platform</option>
+<option>AI Programming</option>
+<option>AI Storytelling</option>
+<option>AI Summarizer</option>
+<option>Augmented Search</option>
+<option>Automation</option>
+<option>Autonomous Driving</option>
+<option>Browser</option>
+<option>Browser Extension</option>
+<option>Chatbot / NLP</option>
+<option>Code</option>
+<option>Code Assistant</option>
+<option>Command Line</option>
+<option>Content Creation</option>
+<option>Content Recommendation</option>
+<option>Conversational</option>
+<option>CRM</option>
+<option>Customer Support</option>
+<option>Design</option>
+<option>Diagramming</option>
+<option>Document</option>
+<option>Documentation</option>
+<option>Document Interaction</option>
+<option>Domain Name Generator</option>
+<option>E-commerce</option>
+<option>Educational</option>
+<option>Image Analysis</option>
+<option>Image Enhancement</option>
+<option>Image Generation</option>
+<option>Interior Design</option>
+<option>Interview Preparation</option>
+<option>Knowledge Management</option>
+<option>Language Model</option>
+<option>Meeting Summarization</option>
+<option>Miscellaneous</option>
+<option>Mobile Assistant</option>
+<option>Motion Capture</option>
+<option>Music</option>
+<option>Music Generation</option>
+<option>Photo/Video</option>
+<option>Presentation Generation</option>
+<option>Productivity</option>
+<option>Search</option>
+<option>Search Assistant</option>
+<option>SEO</option>
+<option>Social Media Management</option>
+<option>Speech Coaching</option>
+<option>Speech-to-Text</option>
+<option>Text Generation</option>
+<option>Text Processing</option>
+<option>Text Summarization</option>
+<option>Travel Planning</option>
+<option>UI Design</option>
+<option>UI/UX Analysis</option>
+<option>User Feedback</option>
+<option>User Research</option>
+<option>Vector Database</option>
+<option>Video Editing</option>
+<option>Video Generation</option>
+<option>Video/Image Generation</option>
+<option>Voice Assistant</option>
+<option>Web Scraping</option>
+<option>Website Builder</option>
+<option>Writing Assistant</option>
+
       </select>
     </div>
   </div>
