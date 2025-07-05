@@ -1,90 +1,128 @@
+<style>
+/* Uniformisation des champs input et select */
+.input-field,
+.select-field {
+  height: 38px;                         /* Hauteur forcée identique */
+  padding: 6px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #000;
+  font-size: 14px;
+  box-sizing: border-box;
+  appearance: none;                    /* Pour les navigateurs WebKit */
+  -moz-appearance: none;               /* Pour Firefox */
+  -webkit-appearance: none;
+}
+
+/* Largeur spécifique */
+.input-field {
+  width: 200px;
+}
+
+.select-field {
+  width: 250px;
+}
+
+/* Boutons stylés */
+.button-action {
+  background-color: #3366cc;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-action:hover {
+  background-color: #5588dd;
+}
+</style>
+
 <!-- Formulaire de recherche IA -->
-<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+<div style="margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; gap: 20px;">
 
-  <div style="display: flex; flex-direction: column;">
-    <label for="searchName" style="color: #000; font-weight: bold;">BY CONTENT IN THE NAME</label>
-    <input type="text" id="searchName" placeholder="" style="padding: 2px; width: 200px;">
+  <!-- Zone des champs -->
+  <div style="display: flex; align-items: flex-end; gap: 30px; flex-wrap: wrap; justify-content: center;">
+
+    <div style="display: flex; flex-direction: column;">
+      <label for="searchName" style="color: #000; font-weight: bold;">BY CONTENT IN THE NAME</label>
+      <input type="text" id="searchName" class="input-field" placeholder="">
+    </div>
+
+    <div style="display: flex; flex-direction: column;">
+      <label for="searchCategory" style="color: #000; font-weight: bold;">LOOKING ALL IN ONE CATEGORIE</label>
+      <select id="searchCategory" class="select-field">
+        <option value="">-- ALL CATEGORIES --</option>
+        <option>lConversational</option>
+        <option>Code</option>
+        <option>Photo/Vidéo</option>
+        <option>Music</option>
+        <option>Miscellaneous</option>
+        <option>Image Generation</option>
+        <option>Productivity AI</option>
+        <option>Text Processing</option>
+        <option>AI Platform</option>
+        <option>Image Enhancement</option>
+        <option>Speech-to-Text</option>
+        <option>Writing Assistant</option>
+        <option>Content Creation</option>
+        <option>Text Summarization</option>
+        <option>Presentation Generation</option>
+        <option>Autonomous Driving</option>
+        <option>Writing Assistant</option>
+        <option>Search Assistant</option>
+        <option>UI Design</option>
+        <option>AI Storytelling</option>
+        <option>Document Interaction</option>
+        <option>Content Recommendation</option>
+        <option>AI Framework</option>
+        <option>AI Monitoring</option>
+        <option>Video Editing</option>
+        <option>Command Line AI</option>
+        <option>Browser Extension</option>
+        <option>User Research AI</option>
+        <option>Code Assistant</option>
+        <option>Vector Database</option>
+        <option>AI Programming</option>
+        <option>Language Model</option>
+        <option>Website Builder</option>
+        <option>Customer Support AI</option>
+        <option>Knowledge Management</option>
+        <option>Educational AI</option>
+        <option>Documentation AI</option>
+        <option>User Feedback AI</option>
+        <option>Interview Preparation</option>
+      </select>
+    </div>
   </div>
 
-  <div style="display: flex; flex-direction: column;">
-    <label for="searchCategory" style="color: #000; font-weight: bold;">LOOKING ALL IN ONE CATEGORIE</label>
-    <select id="searchCategory" style="padding: 2px; width: 250px;">
-      <option value="">-- ALL CATEGORIES --</option>
-      <option>lConversational</option>
-      <option>Code</option>
-      <option>Photo/Vidéo</option>
-      <option>Music</option>
-      <option>Miscellaneous</option>
-      <option>Image Generation</option>
-      <option>Productivity AI</option>
-      <option>Text Processing</option>
-      <option>AI Platform</option>
-      <option>Image Enhancement</option>
-      <option>Speech-to-Text</option>
-      <option>Writing Assistant</option>
-      <option>Content Creation</option>
-      <option>Text Summarization</option>
-      <option>Presentation Generation</option>
-      <option>Autonomous Driving</option>
-      <option>Writing Assistant</option>
-      <option>Search Assistant</option>
-      <option>UI Design</option>
-      <option>AI Storytelling</option>
-      <option>Document Interaction</option>
-      <option>Content Recommendation</option>
-      <option>AI Framework</option>
-      <option>AI Monitoring</option>
-      <option>Video Editing</option>
-      <option>Command Line AI</option>
-      <option>Browser Extension</option>
-      <option>User Research AI</option>
-      <option>Code Assistant</option>
-      <option>Vector Database</option>
-      <option>AI Programming</option>
-      <option>Language Model</option>
-      <option>Website Builder</option>
-      <option>Customer Support AI</option>
-      <option>Knowledge Management</option>
-      <option>Educational AI</option>
-      <option>Documentation AI</option>
-      <option>User Feedback AI</option>
-      <option>Interview Preparation</option>
-
- </select>
-  </div>
-
-  <div style="display: flex; gap: 10px; margin-top: 22px;">
-    <button onclick="filterTable()" style="color: #001f3f; font-weight: bold;">FIND</button>
-    <button onclick="location.reload();" style="color: #001f3f; font-weight: bold;">RELOAD</button>
+  <!-- Zone des boutons -->
+  <div style="display: flex; gap: 20px; justify-content: center; margin-top: 10px;">
+    <button class="button-action" onclick="filterTable()">FIND</button>
+    <button class="button-action" onclick="location.reload();">RELOAD</button>
   </div>
 </div>
 
 <script>
-window.addEventListener('load', () => {
-  const tableElement = document.getElementById('chatbotTable');
-  if (tableElement) {
-    tableElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-});
-
 function filterTable() {
   const nameFilter = document.getElementById("searchName").value.trim().toUpperCase();
   const categoryFilter = document.getElementById("searchCategory").value;
-
   const rows = document.querySelectorAll("table tbody tr");
-
   let matchCount = 0;
 
   rows.forEach(row => {
-    const nameCell = row.cells[0]; // colonne "NAME"
-    const categoryCell = row.cells[1]; // colonne "CATEGORY"
+    const nameCell = row.cells[0];
+    const categoryCell = row.cells[1];
 
     const nameMatch = !nameFilter || nameCell.textContent.toUpperCase().includes(nameFilter);
     const categoryMatch = !categoryFilter || categoryCell.textContent === categoryFilter;
 
     if (nameMatch && categoryMatch) {
       row.style.display = "";
-      row.style.backgroundColor = "#ffaa00"; // orange foncé
+      row.style.backgroundColor = "#ffaa00";
       matchCount++;
     } else {
       row.style.display = "none";
@@ -92,7 +130,7 @@ function filterTable() {
   });
 
   if (matchCount === 0) {
-    alert("Aucun résultat trouvé.");
+    alert("NO RESULT");
   }
 }
 </script>
