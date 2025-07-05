@@ -59,25 +59,26 @@
 <body>
 
 <table>
-  <thead>
-    <tr>
-      <th style="width: 100px;">NAME</th>
-      <th style="width: 100px;">CATEGORY</th>
-      <th style="width: 300px;">DESCRIPTION</th>
-      <th style="width: 120px;">LINK</th>
-      <th style="width: 100px;">PUBLISHER</th>
-      <th style="width: 100px;">LICENCE</th>
-      <th style="width: 50px;">API</th> <!-- largeur réduite ici -->
-      <th style="width: 120px;">BUSINESS MODEL</th>
-      <th style="width: 80px;">ORIGIN</th>
-    </tr>
-  </thead>
+<thead>
+  <tr>
+    <th style="width: 85px; border: 1px solid white; text-align: center;">NAME</th>
+    <th style="width: 100px; border: 1px solid white; text-align: center;">CATEGORY</th>
+    <th style="width: 250px; border: 1px solid white; text-align: center;">DESCRIPTION</th>
+    <th style="width: 120px; border: 1px solid white; text-align: center;">LINK</th>
+    <th style="width: 100px; border: 1px solid white; text-align: center;">PUBLISHER</th>
+    <th style="width: 100px; border: 1px solid white; text-align: center;">LICENCE</th>
+    <th style="width: 50px; border: 1px solid white; text-align: center;">API</th>
+    <th style="width: 120px; border: 1px solid white; text-align: center;">BUSINESS MODEL</th>
+    <th style="width: 60px; border: 1px solid white; text-align: center;">ORIGIN</th>
+  </tr>
+</thead>
+
   <tbody>
         <tr>
             <td>ChatGPT</td>
             <td>Conversational</td>
             <td>Assistant polyvalent</td>
-            <td><a href="https://chat.openai.com" target="_blank">https://chat.openai.com</a></td>
+            <td><a href="https://chat.openai.com" target="_blank">chat.openai.com</a></td>
             <td>OpenAI</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -85,10 +86,21 @@
             <td>USA</td>
         </tr>
         <tr>
+            <td>Sora</td>
+            <td>Photo/Vidéo</td>
+            <td>Multimodal (texte → vidéo)</td>
+            <td><a href="https://openai.com/sora/" target="_blank">openai.com/sora</a></td>
+            <td>OpenAI</td>
+            <td>Proprietary</td>
+            <td>No</td>
+            <td>Freemium</td>
+            <td>USA</td>
+        </tr>   
+        <tr>
             <td>Claude</td>
             <td>Conversational</td>
             <td>Éthique & sûre</td>
-            <td><a href="https://claude.ai" target="_blank">https://claude.ai</a></td>
+            <td><a href="https://claude.ai" target="_blank">claude.ai</a></td>
             <td>Anthropic</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -99,7 +111,7 @@
             <td>Gemini</td>
             <td>Conversational</td>
             <td>Multimodal (texte/image/voix)</td>
-            <td><a href="https://gemini.google.com" target="_blank">https://gemini.google.com</a></td>
+            <td><a href="https://gemini.google.com" target="_blank">gemini.google.com</a></td>
             <td>Google</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -110,7 +122,7 @@
             <td>Le Chat</td>
             <td>Conversational</td>
             <td>Open source français</td>
-            <td><a href="https://lechat.mistral.ai" target="_blank">https://lechat.mistral.ai</a></td>
+            <td><a href="https://lechat.mistral.ai" target="_blank">lechat.mistral.ai</a></td>
             <td>Mistral</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -121,7 +133,7 @@
             <td>Pi</td>
             <td>Conversational</td>
             <td>Empathique</td>
-            <td><a href="https://heypi.com" target="_blank">https://heypi.com</a></td>
+            <td><a href="https://heypi.com" target="_blank">heypi.com</a></td>
             <td>Inflection AI</td>
             <td>Proprietary</td>
             <td>No</td>
@@ -132,7 +144,7 @@
             <td>Phind</td>
             <td>Conversational</td>
             <td>Dev + recherche web</td>
-            <td><a href="https://phind.com" target="_blank">https://phind.com</a></td>
+            <td><a href="https://phind.com" target="_blank">phind.com</a></td>
             <td>Phind</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -143,7 +155,7 @@
             <td>Character.AI</td>
             <td>Conversational</td>
             <td>Personnages IA</td>
-            <td><a href="https://character.ai" target="_blank">https://character.ai</a></td>
+            <td><a href="https://character.ai" target="_blank">character.ai</a></td>
             <td>Character AI</td>
             <td>Proprietary</td>
             <td>No</td>
@@ -154,7 +166,7 @@
             <td>HuggingChat</td>
             <td>Conversational</td>
             <td>Chatbot open source</td>
-            <td><a href="https://huggingface.co/chat" target="_blank">https://huggingface.co/chat</a></td>
+            <td><a href="https://huggingface.co/chat" target="_blank">huggingface.co/chat</a></td>
             <td>Hugging Face</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -165,7 +177,7 @@
             <td>Kuki</td>
             <td>Conversational</td>
             <td>Chatbot métaverse</td>
-            <td><a href="https://www.pandorabots.com/kuki" target="_blank">https://www.pandorabots.com/kuki</a></td>
+            <td><a href="https://www.pandorabots.com/kuki" target="_blank">www.pandorabots.com/kuki</a></td>
             <td>Pandorabots</td>
             <td>Proprietary</td>
             <td>No</td>
@@ -176,7 +188,7 @@
             <td>Grok</td>
             <td>Conversational</td>
             <td>IA par xAI</td>
-            <td><a href="https://x.com/grok" target="_blank">https://x.com/grok</a></td>
+            <td><a href="https://x.com/grok" target="_blank">x.com/grok</a></td>
             <td>xAI</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -187,7 +199,7 @@
             <td>GitHub Copilot</td>
             <td>Code</td>
             <td>IDE assistant</td>
-            <td><a href="https://copilot.github.com" target="_blank">https://copilot.github.com</a></td>
+            <td><a href="https://copilot.github.com" target="_blank">copilot.github.com</a></td>
             <td>OpenAI+GitHub</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -198,7 +210,7 @@
             <td>Replit Ghostwriter</td>
             <td>Code</td>
             <td>IDE cloud</td>
-            <td><a href="https://replit.com" target="_blank">https://replit.com</a></td>
+            <td><a href="https://replit.com" target="_blank">replit.com</a></td>
             <td>Replit</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -209,7 +221,7 @@
             <td>Codeium</td>
             <td>Code</td>
             <td>Extension IDE Freemiume</td>
-            <td><a href="https://codeium.com" target="_blank">https://codeium.com</a></td>
+            <td><a href="https://codeium.com" target="_blank">codeium.com</a></td>
             <td>Codeium</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -220,7 +232,7 @@
             <td>Cursor</td>
             <td>Code</td>
             <td>IA native IDE</td>
-            <td><a href="https://cursor.sh" target="_blank">https://cursor.sh</a></td>
+            <td><a href="https://cursor.sh" target="_blank">cursor.sh</a></td>
             <td>Cursor</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -231,7 +243,7 @@
             <td>Tabnine</td>
             <td>Code</td>
             <td>Complétion de code</td>
-            <td><a href="https://tabnine.com" target="_blank">https://tabnine.com</a></td>
+            <td><a href="https://tabnine.com" target="_blank">tabnine.com</a></td>
             <td>Codota</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -242,7 +254,7 @@
             <td>Rasa</td>
             <td>Code</td>
             <td>NLU & dialogue</td>
-            <td><a href="https://rasa.com" target="_blank">https://rasa.com</a></td>
+            <td><a href="https://rasa.com" target="_blank">rasa.com</a></td>
             <td>Rasa</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -253,7 +265,7 @@
             <td>Botpress</td>
             <td>Code</td>
             <td>Visuel & modulaire</td>
-            <td><a href="https://botpress.com" target="_blank">https://botpress.com</a></td>
+            <td><a href="https://botpress.com" target="_blank">botpress.com</a></td>
             <td>Botpress</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -264,7 +276,7 @@
             <td>ChatterBot</td>
             <td>Code</td>
             <td>Prototypage rapide</td>
-            <td><a href="https://github.com/gunthercox/ChatterBot" target="_blank">https://github.com/gunthercox/ChatterBot</a></td>
+            <td><a href="https://github.com/gunthercox/ChatterBot" target="_blank">github.com/gunthercox/ChatterBot</a></td>
             <td>ChatterBot</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -275,7 +287,7 @@
             <td>ChatScript</td>
             <td>Code</td>
             <td>Engine C++ dialog</td>
-            <td><a href="https://github.com/ChatScript/ChatScript" target="_blank">https://github.com/ChatScript/ChatScript</a></td>
+            <td><a href="https://github.com/ChatScript/ChatScript" target="_blank">github.com/ChatScript/ChatScript</a></td>
             <td>ChatScript</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -286,7 +298,7 @@
             <td>h2oGPT</td>
             <td>Code</td>
             <td>LLM 7–40 B</td>
-            <td><a href="https://github.com/h2oai/h2ogpt" target="_blank">https://github.com/h2oai/h2ogpt</a></td>
+            <td><a href="https://github.com/h2oai/h2ogpt" target="_blank">github.com/h2oai/h2ogpt</a></td>
             <td>h2o.ai</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -297,7 +309,7 @@
             <td>DALL·E</td>
             <td>Photo/Vidéo</td>
             <td>Texte→image</td>
-            <td><a href="https://chat.openai.com" target="_blank">https://chat.openai.com</a></td>
+            <td><a href="https://chat.openai.com" target="_blank">chat.openai.com</a></td>
             <td>OpenAI</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -308,7 +320,7 @@
             <td>Midjourney</td>
             <td>Photo/Vidéo</td>
             <td>Création artistique Discord</td>
-            <td><a href="https://midjourney.com" target="_blank">https://midjourney.com</a></td>
+            <td><a href="https://midjourney.com" target="_blank">midjourney.com</a></td>
             <td>Midjourney</td>
             <td>Proprietary</td>
             <td>No</td>
@@ -319,7 +331,7 @@
             <td>Leonardo AI</td>
             <td>Photo/Vidéo</td>
             <td>Interface créative</td>
-            <td><a href="https://leonardo.ai" target="_blank">https://leonardo.ai</a></td>
+            <td><a href="https://leonardo.ai" target="_blank">leonardo.ai</a></td>
             <td>Leonardo</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -330,7 +342,7 @@
             <td>Runway ML</td>
             <td>Photo/Vidéo</td>
             <td>Édition & génération vidéo</td>
-            <td><a href="https://runwayml.com" target="_blank">https://runwayml.com</a></td>
+            <td><a href="https://runwayml.com" target="_blank">runwayml.com</a></td>
             <td>Runway</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -341,7 +353,7 @@
             <td>Pika Labs</td>
             <td>Photo/Vidéo</td>
             <td>Texte→vidéo</td>
-            <td><a href="https://pika.art" target="_blank">https://pika.art</a></td>
+            <td><a href="https://pika.art" target="_blank">pika.art</a></td>
             <td>Pika</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -352,7 +364,7 @@
             <td>Suno AI</td>
             <td>Music</td>
             <td>Génération de Music IA</td>
-            <td><a href="https://suno.ai" target="_blank">https://suno.ai</a></td>
+            <td><a href="https://suno.ai" target="_blank">suno.ai</a></td>
             <td>Suno</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -363,7 +375,7 @@
             <td>AIVA</td>
             <td>Music</td>
             <td>Composition IA</td>
-            <td><a href="https://aiva.ai" target="_blank">https://aiva.ai</a></td>
+            <td><a href="https://aiva.ai" target="_blank">aiva.ai</a></td>
             <td>AIVA</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -374,7 +386,7 @@
             <td>Soundraw</td>
             <td>Music</td>
             <td>Music pour vidéo</td>
-            <td><a href="https://soundraw.io" target="_blank">https://soundraw.io</a></td>
+            <td><a href="https://soundraw.io" target="_blank">soundraw.io</a></td>
             <td>Soundraw</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -385,7 +397,7 @@
             <td>Personal.ai</td>
             <td>Miscellaneous</td>
             <td>Mémoire Conversationalle</td>
-            <td><a href="https://www.personal.ai" target="_blank">https://www.personal.ai</a></td>
+            <td><a href="https://www.personal.ai" target="_blank">www.personal.ai</a></td>
             <td>Personal AI</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -396,7 +408,7 @@
             <td>Flowise</td>
             <td>Miscellaneous</td>
             <td>Platforme low‑code</td>
-            <td><a href="https://github.com/FlowiseAI" target="_blank">https://github.com/FlowiseAI</a></td>
+            <td><a href="https://github.com/FlowiseAI" target="_blank">github.com/FlowiseAI</a></td>
             <td>Flowise</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -407,7 +419,7 @@
             <td>EduChat</td>
             <td>Miscellaneous</td>
             <td>Éducation IA</td>
-            <td><a href="https://www.educhat.top" target="_blank">https://www.educhat.top</a></td>
+            <td><a href="https://www.educhat.top" target="_blank">www.educhat.top</a></td>
             <td>ICaLK‑NLP</td>
             <td>Open Source</td>
             <td>Yes</td>
@@ -418,7 +430,7 @@
             <td>Aisera</td>
             <td>Miscellaneous</td>
             <td>Support IT/HR/Sales</td>
-            <td><a href="https://aisera.com" target="_blank">https://aisera.com</a></td>
+            <td><a href="https://aisera.com" target="_blank">aisera.com</a></td>
             <td>Aisera</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -429,7 +441,7 @@
             <td>Netomi</td>
             <td>Miscellaneous</td>
             <td>Service client NLU</td>
-            <td><a href="https://netomi.com" target="_blank">https://netomi.com</a></td>
+            <td><a href="https://netomi.com" target="_blank">netomi.com</a></td>
             <td>Netomi</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -440,7 +452,7 @@
             <td>Botsonic</td>
             <td>Miscellaneous</td>
             <td>Builder chatbots GPT-4</td>
-            <td><a href="https://botsonic.ai" target="_blank">https://botsonic.ai</a></td>
+            <td><a href="https://botsonic.ai" target="_blank">botsonic.ai</a></td>
             <td>Writesonic</td>
             <td>Proprietary</td>
             <td>Yes</td>
@@ -1128,16 +1140,6 @@
         <td> TextCortex API</td>
         <td>Freemium</td>
         <td>Germany</td>
-    </tr>
-    <tr>
-        <td>uizard</td>
-        <td>UI Design</td>
-        <td>Ccreating UI designs and prototypes from text descriptions</td>
-        <td>Uizard</td>
-        <td>Proprietary</td>
-        <td>No</td>
-        <td>Freemium</td>
-        <td>Denmark</td>
     </tr>
     <tr>
         <td>VoiceLine</td>
