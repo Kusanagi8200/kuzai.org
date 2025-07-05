@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #001f3f;
+      color: white;
+      font-size: 10px;
+    }
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  color: #001f3f;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-th, td {
-  border: 1px solid #0074D9;
-  padding: 8px;
-}
-th {
-  background-color: #0074D9;
-  color: white;
-  text-align: left;
-}
-tr:nth-child(even) {
-  background-color: #e6f7ff;
-}
-tr:hover {
-  background-color: #cceeff;
-}
-a {
-  color: #001f3f;
-  text-decoration: Noe;
-}
-a:hover {
-  text-decoration: underline;
-}
-h1 {
-  color: #001f3f;
-}
-</style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      table-layout: fixed; /* Nécessaire pour que les largeurs soient respectées */
+    }
+
+    th, td {
+      border: 1px solid #0074D9;
+      padding: 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    th {
+      background-color: #0074D9;
+      color: white;
+      text-align: left;
+    }
+
+    tr:nth-child(even) {
+      background-color: #003366;
+    }
+
+    tr:hover {
+      background-color: #004080;
+    }
+
+    a {
+      color: #7FDBFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #7FDBFF;
+    }
+
+    * {
+      color: white !important;
+    }
+  </style>
 </head>
 <body>
 
 <table>
-<thead>
-<tr>
-<th>NAME</th><th>CATEGORY</th><th>DESCRIPTION</th><th>LINK</th>
-<th>PUBLISHER</th><th>LICENCE</th><th>API</th><th>BUSINESS MODEL</th><th>ORIGIN</th>
-</tr>
-</thead>
-<tbody>
-
+  <thead>
+    <tr>
+      <th style="width: 100px;">NAME</th>
+      <th style="width: 100px;">CATEGORY</th>
+      <th style="width: 300px;">DESCRIPTION</th>
+      <th style="width: 120px;">LINK</th>
+      <th style="width: 100px;">PUBLISHER</th>
+      <th style="width: 100px;">LICENCE</th>
+      <th style="width: 50px;">API</th> <!-- largeur réduite ici -->
+      <th style="width: 120px;">BUSINESS MODEL</th>
+      <th style="width: 80px;">ORIGIN</th>
+    </tr>
+  </thead>
+  <tbody>
         <tr>
             <td>ChatGPT</td>
             <td>Conversational</td>
