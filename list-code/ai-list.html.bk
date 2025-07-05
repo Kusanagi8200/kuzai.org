@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #001f3f;
+      color: white;
+      font-size: 10px;
+    }
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  color: #001f3f;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-th, td {
-  border: 1px solid #0074D9;
-  padding: 8px;
-}
-th {
-  background-color: #0074D9;
-  color: white;
-  text-align: left;
-}
-tr:nth-child(even) {
-  background-color: #e6f7ff;
-}
-tr:hover {
-  background-color: #cceeff;
-}
-a {
-  color: #001f3f;
-  text-decoration: Noe;
-}
-a:hover {
-  text-decoration: underline;
-}
-h1 {
-  color: #001f3f;
-}
-</style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      table-layout: fixed; /* Nécessaire pour que les largeurs soient respectées */
+    }
+
+    th, td {
+      border: 1px solid #0074D9;
+      padding: 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    th {
+      background-color: #0074D9;
+      color: white;
+      text-align: left;
+    }
+
+    tr:nth-child(even) {
+      background-color: #003366;
+    }
+
+    tr:hover {
+      background-color: #004080;
+    }
+
+    a {
+      color: #7FDBFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #7FDBFF;
+    }
+
+    * {
+      color: white !important;
+    }
+  </style>
 </head>
 <body>
 
 <table>
-<thead>
-<tr>
-<th>NAME</th><th>CATEGORY</th><th>DESCRIPTION</th><th>LINK</th>
-<th>PUBLISHER</th><th>LICENCE</th><th>API</th><th>BUSINESS MODEL</th><th>ORIGIN</th>
-</tr>
-</thead>
-<tbody>
-
+  <thead>
+    <tr>
+      <th style="width: 100px;">NAME</th>
+      <th style="width: 100px;">CATEGORY</th>
+      <th style="width: 300px;">DESCRIPTION</th>
+      <th style="width: 120px;">LINK</th>
+      <th style="width: 100px;">PUBLISHER</th>
+      <th style="width: 100px;">LICENCE</th>
+      <th style="width: 50px;">API</th> <!-- largeur réduite ici -->
+      <th style="width: 120px;">BUSINESS MODEL</th>
+      <th style="width: 80px;">ORIGIN</th>
+    </tr>
+  </thead>
+  <tbody>
         <tr>
             <td>ChatGPT</td>
             <td>Conversational</td>
@@ -137,7 +159,7 @@ h1 {
             <td>Open Source</td>
             <td>Yes</td>
             <td>Freemium</td>
-            <td>USA/Europe</td>
+            <td>USA/EU</td>
         </tr>
         <tr>
             <td>Kuki</td>
@@ -714,7 +736,7 @@ h1 {
     <tr>
         <td>PhotoRoom</td>
         <td>Photo/Video</td>
-        <td>Removing backgrounds, creating product photos from mobile devices</td>
+        <td>Removing backgrounds, creating photos from mobile devices</td>
         <td><a href="https://www.photoroom.com">photoroom.com</a></td>
         <td>PhotoRoom</td>
         <td>Proprietary</td>
@@ -747,7 +769,7 @@ h1 {
     <tr>
         <td>ChatPDF</td>
         <td>Document Interaction</td>
-        <td>Upload PDFs,interact with them through summarization and Q&A.</td>
+        <td>Upload PDFs,interact with them through summarization</td>
         <td><a href="https://www.chatpdf.com">chatpdf.com</a></td>
         <td>ChatPDF</td>
         <td>Proprietary</td>
@@ -780,7 +802,7 @@ h1 {
     <tr>
         <td>GPTFlix</td>
         <td>Content Recommendation</td>
-        <td>Generating personalized movie and TV show recommendations</td>
+        <td>Generating movie and TV show recommendations</td>
         <td><a href="https://gptflix.ai">gptflix.ai</a></td>
         <td>GPTFlix</td>
         <td>Proprietary</td>
@@ -945,7 +967,7 @@ h1 {
     <tr>
         <td>Huberman AI</td>
         <td>Conversational</td>
-        <td>Tool for accessing insights from Dr. Huberman’s content via Q&A</td>
+        <td>Tool for accessing insights from Dr. Huberman’s content</td>
         <td><a href="https://huberman.ai">huberman.ai</a></td>
         <td>Huberman AI</td>
         <td>Proprietary</td>
@@ -956,7 +978,7 @@ h1 {
     <tr>
         <td>Imagen</td>
         <td>Image Generation</td>
-        <td>Google’s AI for generating high-quality images from text prompts</td>
+        <td>Google’s AI for generating images from text prompts</td>
         <td><a href="https://cloud.google.com/vision">cloud.google.com</a></td>
         <td>Google</td>
         <td>Proprietary</td>
@@ -967,7 +989,7 @@ h1 {
     <tr>
         <td>Magical AI</td>
         <td>Productivity AI</td>
-        <td>Automates repetitive tasks like email drafting and data entry with AI</td>
+        <td>Automates repetitive tasks like email,drafting,data entry with AI</td>
         <td><a href="https://www.getmagical.com">getmagical.com</a></td>
         <td>Magical AI</td>
         <td>Proprietary</td>
@@ -978,7 +1000,7 @@ h1 {
     <tr>
         <td>MemeMorph</td>
         <td>Image Generation</td>
-        <td>AI tool for creating personalized memes from user-uploaded images</td>
+        <td>Creating personalized memes from user-uploaded images</td>
         <td><a href="https://mememorph.com">mememorph.com</a></td>
         <td>MemeMorph</td>
         <td>Proprietary</td>
@@ -1285,7 +1307,7 @@ h1 {
     <tr>
         <td>Chat Thing</td>
         <td>Conversational</td>
-        <td>AI-powered chatbot creation tool for businesses and customer support</td>
+        <td>AI-powered chatbot creation tool for support</td>
         <td><a href="https://chatthing.ai">chatthing.ai</a></td>
         <td>Chat Thing</td>
         <td>Proprietary</td>
